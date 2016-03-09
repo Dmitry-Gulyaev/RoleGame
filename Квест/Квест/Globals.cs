@@ -8,11 +8,11 @@ namespace Квест
 {
     public static class Globals
     {
-        public static int Heal=50;
-        public static int Level;
-        public static int Points;
+        public static int Heal=5;
+        public static int Level=1;
+        public static int Points; //баллы
         public static int Money;
-
+        public static int Ammo; //патроны
              
     }
    

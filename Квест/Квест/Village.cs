@@ -45,5 +45,13 @@ namespace Квест
             LabelMoney.Text = Globals.Money.ToString();
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormBatleDogs form2 = new FormBatleDogs();
+            this.Hide();
+            form2.ShowDialog();
+            this.Show();
+        }
     }
 }
