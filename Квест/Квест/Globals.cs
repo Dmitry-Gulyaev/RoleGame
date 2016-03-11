@@ -8,25 +8,23 @@ namespace Квест
 {
     public class Globals
     {
-        public static int Heal=5;
         public static int Level=1;
-        public static int Points; //баллы
-        public static int Money;
-        public static int Ammo; //патроны
-        public static int Medic=1;
-
-        public void func()
+        public static int Heal=5;
+        public static int Medic=3; // кол-во аптечек
+        public static int Points=0; //баллы
+        public static int Money=0;
+        public static int Ammo=0; //патроны
+        public int[] param;
+    
+        public void Save()
         {
-            if (Points > 100)
+            param = new int[6];
+            for (int i = 0; i < 6; i++)
             {
-                Level += 1;
-                Points = 0;
-            }
-            if (Heal > 100)
-            {
-                Heal = 100;
+                //param[i];
             }
         }
+        
     }
 
    

@@ -35,10 +35,7 @@ namespace Квест
 
         private void FormIntro_Load(object sender, EventArgs e)
         {
-            if (Globals.Heal > 100)
-            {
-                Globals.Heal = 100;
-            }
+            
         }
     }
 }
