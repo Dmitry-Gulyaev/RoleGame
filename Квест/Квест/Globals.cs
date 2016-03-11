@@ -13,19 +13,7 @@ namespace Квест
         public static int Points; //баллы
         public static int Money;
         public static int Ammo; //патроны
-
-        public void func()
-        {
-            if (Points > 100)
-            {
-                Level += 1;
-                Points = 0;
-            }
-            if (Heal > 100)
-            {
-                Heal = 100;
-            }
-        }
+             
     }
    
     

@@ -20,7 +20,10 @@ namespace Квест
         private void medicine_Click(object sender, EventArgs e)
         {
             Globals.Heal += 60;
-            
+            if (Globals.Heal > 100)
+            {
+                Globals.Heal = 100;
+            }
             
         }
 
