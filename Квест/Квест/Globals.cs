@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace Квест
 {
-    public static class Globals
+    public class Globals
     {
         public static int Heal=5;
         public static int Level=1;
         public static int Points; //баллы
         public static int Money;
         public static int Ammo; //патроны
+        public static int Medic=1;
 
         public void func()
         {
@@ -27,6 +28,8 @@ namespace Квест
             }
         }
     }
+
+   
    
     
 }

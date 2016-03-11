@@ -30,7 +30,6 @@ namespace Квест
             inventory form2 = new inventory();
             this.Hide();
             form2.ShowDialog();
-            this.Show();
         }
 
         private void LabelHeal_Click(object sender, EventArgs e)

@@ -23,7 +23,9 @@ namespace Квест
            FormVillage form2 = new FormVillage();
             this.Hide();
             form2.ShowDialog();
-            this.Show();
+            this.Close();
+            
+            
         }
 
         private void label1_Click(object sender, EventArgs e)

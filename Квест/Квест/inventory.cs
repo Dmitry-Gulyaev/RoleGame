@@ -19,8 +19,9 @@ namespace Квест
 
         private void medicine_Click(object sender, EventArgs e)
         {
-            Globals.Heal += 60;
-            
+            if (Globals.Medic > 0)
+                Globals.Heal += 50;
+                
             
         }
 
@@ -34,7 +35,7 @@ namespace Квест
             FormVillage form2 = new FormVillage();
             this.Hide();
             form2.ShowDialog();
-            this.Show();
+            this.Close();
         }
     }
 }
