@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace Квест
 {
@@ -18,11 +19,21 @@ namespace Квест
     
         public void Save()
         {
-            param = new int[6];
-            for (int i = 0; i < 6; i++)
-            {
-                //param[i];
-            }
+            StreamWriter sw = new StreamWriter("Save.txt", false);
+            String st;           
+            st = Globals.Level.ToString();
+            sw.WriteLine(st);
+            st = Globals.Heal.ToString();
+            sw.WriteLine(st);
+            st = Globals.Medic.ToString();
+            sw.WriteLine(st);
+            st = Globals.Points.ToString();
+            sw.WriteLine(st);
+            st = Globals.Money.ToString();
+            sw.WriteLine(st);
+            st = Globals.Ammo.ToString();
+            sw.WriteLine(st);
+            sw.Close();
         }
         
     }
