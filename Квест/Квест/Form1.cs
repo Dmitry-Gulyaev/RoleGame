@@ -20,7 +20,9 @@ namespace Квест
 
         private void button1_Click(object sender, EventArgs e)
         {
-           FormVillage form2 = new FormVillage();
+            Globals read = new Globals();
+            read.Reader();
+            FormVillage form2 = new FormVillage();
             this.Hide();
             form2.ShowDialog();
             this.Close();

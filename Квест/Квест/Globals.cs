@@ -35,6 +35,25 @@ namespace Квест
             sw.WriteLine(st);
             sw.Close();
         }
+
+        public void Reader()
+        {
+            StreamReader sr = new StreamReader("Save.txt");
+            String st;
+            st = sr.ReadLine();
+            Globals.Level = System.Int32.Parse(st);
+            st = sr.ReadLine();
+            Globals.Heal = System.Int32.Parse(st);
+            st = sr.ReadLine();
+            Globals.Medic = System.Int32.Parse(st);
+            st = sr.ReadLine();
+            Globals.Points = System.Int32.Parse(st);
+            st = sr.ReadLine();
+            Globals.Money = System.Int32.Parse(st);
+            st = sr.ReadLine();
+            Globals.Ammo = System.Int32.Parse(st);
+            sr.Close();
+        }
         
     }
 
