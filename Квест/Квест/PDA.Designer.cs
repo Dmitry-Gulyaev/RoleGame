@@ -72,6 +72,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PDA";
             this.Text = "Карманный компьютер";
+            this.Load += new System.EventHandler(this.PDA_Load);
             this.ResumeLayout(false);
 
         }

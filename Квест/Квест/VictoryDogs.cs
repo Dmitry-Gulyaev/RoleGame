@@ -25,7 +25,25 @@ namespace Квест
 
         private void FormVictoryDogs_Load(object sender, EventArgs e)
         {
+            LabelHeal.Text = Globals.Heal.ToString();
+            LabelLevel.Text = Globals.Level.ToString();
+            LabelMoney.Text = Globals.Money.ToString();
+        }
 
+        private void PDAButton_Click(object sender, EventArgs e)
+        {
+            PDA form3 = new PDA();
+            this.Hide();
+            form3.ShowDialog();
+            this.Show();
+        }
+
+        private void InventoryButton_Click(object sender, EventArgs e)
+        {
+            inventory form2 = new inventory();
+            this.Hide();
+            form2.ShowDialog();
+            this.Show();
         }
     }
 }

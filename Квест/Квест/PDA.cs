@@ -16,5 +16,10 @@ namespace Квест
         {
             InitializeComponent();
         }
+
+        private void PDA_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

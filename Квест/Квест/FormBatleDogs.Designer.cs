@@ -1,6 +1,6 @@
 ﻿namespace Квест
 {
-    partial class inventory
+    partial class FormBatleDogs
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(inventory));
-            this.medicine = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormBatleDogs));
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.SaveButton = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
@@ -48,26 +46,6 @@
             this.LabelMoney = new System.Windows.Forms.ToolStripLabel();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // medicine
-            // 
-            this.medicine.Location = new System.Drawing.Point(12, 39);
-            this.medicine.Name = "medicine";
-            this.medicine.Size = new System.Drawing.Size(167, 23);
-            this.medicine.TabIndex = 0;
-            this.medicine.Text = "Использовать аптечку";
-            this.medicine.UseVisualStyleBackColor = true;
-            this.medicine.Click += new System.EventHandler(this.medicine_Click);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(12, 227);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(167, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Вернуться";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // toolStrip1
             // 
@@ -88,8 +66,8 @@
             this.LabelMoney});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(516, 25);
-            this.toolStrip1.TabIndex = 2;
+            this.toolStrip1.Size = new System.Drawing.Size(549, 25);
+            this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
             // 
             // SaveButton
@@ -129,6 +107,7 @@
             this.InventoryButton.Name = "InventoryButton";
             this.InventoryButton.Size = new System.Drawing.Size(70, 22);
             this.InventoryButton.Text = "Инвентарь";
+            this.InventoryButton.Click += new System.EventHandler(this.InventoryButton_Click);
             // 
             // toolStripSeparator3
             // 
@@ -188,18 +167,16 @@
             this.LabelMoney.Size = new System.Drawing.Size(67, 22);
             this.LabelMoney.Text = "1000 руб";
             // 
-            // inventory
+            // FormBatleDogs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(516, 262);
+            this.ClientSize = new System.Drawing.Size(549, 388);
             this.Controls.Add(this.toolStrip1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.medicine);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "inventory";
-            this.Text = "Инвентарь";
-            this.Load += new System.EventHandler(this.inventory_Load);
+            this.Name = "FormBatleDogs";
+            this.Text = "На вас напала псевдособака";
+            this.Load += new System.EventHandler(this.FormBatleDogs_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -209,8 +186,6 @@
 
         #endregion
 
-        private System.Windows.Forms.Button medicine;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripButton SaveButton;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;

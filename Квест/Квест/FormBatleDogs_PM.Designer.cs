@@ -1,6 +1,6 @@
 ﻿namespace Квест
 {
-    partial class FormLossDogs
+    partial class FormBatleDogs_PM
     {
         /// <summary>
         /// Required designer variable.
@@ -28,35 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormLossDogs));
-            this.label1 = new System.Windows.Forms.Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormBatleDogs_PM));
             this.SuspendLayout();
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(39, 48);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 13);
-            this.label1.TabIndex = 0;
-            // 
-            // FormLossDogs
+            // FormBatleDogs_PM
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(365, 262);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(482, 383);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "FormLossDogs";
-            this.Text = "Вы проиграли!";
-            this.Load += new System.EventHandler(this.FormLossDogs_Load);
+            this.Name = "FormBatleDogs_PM";
+            this.Text = "Сражение";
+            this.Load += new System.EventHandler(this.FormBatleDogs_PM_Load);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
     }
 }
