@@ -20,10 +20,14 @@ namespace Квест
 
         private void button1_Click(object sender, EventArgs e)
         {
-           FormVillage form2 = new FormVillage();
+            Globals read = new Globals();
+            read.Reader();
+            FormVillage form2 = new FormVillage();
             this.Hide();
             form2.ShowDialog();
-            this.Show();
+            this.Close();
+            
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -33,10 +37,7 @@ namespace Квест
 
         private void FormIntro_Load(object sender, EventArgs e)
         {
-            if (Globals.Heal > 100)
-            {
-                Globals.Heal = 100;
-            }
+            
         }
     }
 }

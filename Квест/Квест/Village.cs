@@ -13,9 +13,11 @@ namespace Квест
     public partial class FormVillage : Form
     {
         public FormVillage()
-        {
+        {           
             InitializeComponent();
+            
         }
+
 
         private void PDAButton_Click(object sender, EventArgs e)
         {
@@ -30,7 +32,7 @@ namespace Квест
             inventory form2 = new inventory();
             this.Hide();
             form2.ShowDialog();
-            this.Show();
+            //this.Show();
         }
 
         private void LabelHeal_Click(object sender, EventArgs e)
@@ -40,6 +42,11 @@ namespace Квест
 
         private void FormVillage_Load(object sender, EventArgs e)
         {
+            if (Globals.Points > 100)
+            {
+                Globals.Level += 1;
+                Globals.Points = 0;
+            }
             LabelHeal.Text = Globals.Heal.ToString();
             LabelLevel.Text = Globals.Level.ToString();
             LabelMoney.Text = Globals.Money.ToString();
@@ -52,6 +59,12 @@ namespace Квест
             this.Hide();
             form2.ShowDialog();
             this.Show();
+        }
+
+        private void SaveButton_Click(object sender, EventArgs e)
+        {
+            Globals s = new Globals();
+            s.Save();
         }
     }
 }
