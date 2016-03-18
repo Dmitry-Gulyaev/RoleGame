@@ -21,5 +21,13 @@ namespace Квест
         {
 
         }
+
+        private void OpenMaps_Click(object sender, EventArgs e)
+        {
+            FormPdaMaps form2 = new FormPdaMaps();
+            this.Hide();
+            form2.ShowDialog();
+            this.Show();
+        }
     }
 }

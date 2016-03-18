@@ -19,32 +19,22 @@ namespace Квест
 
         private void medicine_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-            LabelHeal.Text = Globals.Heal.ToString();
-            LabelLevel.Text = Globals.Level.ToString();
-            LabelMoney.Text = Globals.Money.ToString();
-
             if (MedResource.medicine <= 0)
             {
                 MessageBox.Show("Нет аптечек!");
             }
             else
             {
-                Globals.Heal += 60;
-                MedResource.medicine -= 1;
-            }
-
-            
-=======
-            if (Globals.Medic > 0)
-            {
-                Globals.Medic--;
                 Globals.Heal += 50;
-                if (Globals.Heal > 100)
-                    Globals.Heal = 100;
-            }   
->>>>>>> origin/master
-            
+                MedResource.medicine -= 1;
+                Globals m = new Globals();
+                m.control();
+                LabelHeal.Text = Globals.Heal.ToString();
+                LabelLevel.Text = Globals.Level.ToString();
+                LabelMoney.Text = Globals.Money.ToString();
+
+            }
+  
         }
 
         private void inventory_Load(object sender, EventArgs e)
@@ -62,7 +52,7 @@ namespace Квест
             this.Hide();
         }
 
-<<<<<<< HEAD
+
         private void PDAButton_Click(object sender, EventArgs e)
         {
             PDA form3 = new PDA();
@@ -70,7 +60,6 @@ namespace Квест
             form3.ShowDialog();
             this.Show();
         }
-=======
->>>>>>> origin/master
+
     }
 }

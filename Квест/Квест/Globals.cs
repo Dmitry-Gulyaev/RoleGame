@@ -10,64 +10,11 @@ namespace Квест
     public class Globals
     {
         public static int Level=1;
-<<<<<<< HEAD
-        public static int Points; //баллы
-        public static int Money;
-        public static int Ammo=10; //патроны
-
-        
-    }
-    class resourse
-    {
-        public void func()
-        {
-            if (Globals.Points > 100)
-            {
-                Globals.Level += 1;
-                Globals.Points = 0;
-            }
-            if (Globals.Heal > 100)
-            {
-                Globals.Heal = 100;
-            }
-            if (Globals.Heal < 0)
-                Globals.Heal = 0;
-        }
-
-
-    }
-    public static class Gun
-    {
-        public static int PM=1;
-        public static int Beretta=1;
-        public static int Desert_Eagle = 1;
-        public static int AKS_74Y = 0;
-        public static int AK_105 = 0;
-        public static int AH_94 = 0;
-        public static int TOZ34 = 0;
-        public static int ShotGun = 0;
-        public static int Saiga_12 = 0;
-        public static int Dragunov_sniper_rifle = 0;
-        public static int Vintorez = 0;
-        public static int Gaus_Gun = 0;
-
-    }
-    public static class MedResource
-    {
-        public static int medicine = 3; // аптечка
-        public static int bandage = 0; // бинт
-        public static int analgesic = 0;//обезболивающее
-        public static int antidote = 0;
-
-    }
-=======
         public static int Heal=5;
         public static int Medic=3; // кол-во аптечек
         public static int Points=0; //баллы
         public static int Money=0;
-        public static int Ammo=0; //патроны
-        public int[] param;
-    
+        public static int Ammo=10; //патроны
         public void Save()
         {
             StreamWriter sw = new StreamWriter("Save.txt", false);
@@ -94,11 +41,49 @@ namespace Квест
             read.ReadLine();
             
         }
+        public void control()
+        {
+            if (Globals.Points > 100)
+            {
+                Globals.Level += 1;
+                Globals.Points = 0;
+            }
+            if (Globals.Heal > 100)
+            {
+                Globals.Heal = 100;
+            }
+            if (Globals.Heal < 0)
+                Globals.Heal = 0;
+        }
+
         
     }
-
-   
-   
     
->>>>>>> origin/master
-}
+    public static class Gun
+    {
+        public static int PM=1;
+        public static int Beretta=1;
+        public static int Desert_Eagle = 1;
+        public static int AKS_74Y = 0;
+        public static int AK_105 = 0;
+        public static int AH_94 = 0;
+        public static int TOZ34 = 0;
+        public static int ShotGun = 0;
+        public static int Saiga_12 = 0;
+        public static int Dragunov_sniper_rifle = 0;
+        public static int Vintorez = 0;
+        public static int Gaus_Gun = 0;
+
+    }
+    public static class MedResource
+    {
+        public static int medicine = 3; // аптечка
+        public static int bandage = 0; // бинт
+        public static int analgesic = 0;//обезболивающее
+        public static int antidote = 0;
+
+    }
+    
+                
+    }
+

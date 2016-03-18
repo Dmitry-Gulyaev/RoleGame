@@ -42,6 +42,7 @@
             this.OpenMaps.TabIndex = 0;
             this.OpenMaps.Text = "Открыть карту";
             this.OpenMaps.UseVisualStyleBackColor = true;
+            this.OpenMaps.Click += new System.EventHandler(this.OpenMaps_Click);
             // 
             // TaksList
             // 

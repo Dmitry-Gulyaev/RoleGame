@@ -14,9 +14,10 @@ namespace Квест
     {
         public FormBatleDogs()
         {
+            InitializeComponent();
             if (Gun.PM == 1 && Globals.Ammo > 0)
             {
-                InitializeComponent();
+                
                 Button newbtn = new Button();
                 newbtn.Location = new Point(10, 50);
                 newbtn.Name = "newbtnPM";
@@ -29,7 +30,7 @@ namespace Квест
             }
             if (Gun.Beretta == 1 && Globals.Ammo > 0)
             {
-                InitializeComponent();
+                
                 Button newbtn = new Button();
                 newbtn.Location = new Point(120, 50);
                 newbtn.Name = "newbtnBeretta";
@@ -42,7 +43,7 @@ namespace Квест
             }
             if (Gun.Desert_Eagle == 1 && Globals.Ammo > 0)
             {
-                InitializeComponent();
+                
                 Button newbtn = new Button();
                 newbtn.Location = new Point(230, 50);
                 newbtn.Name = "newbtnDE";
