@@ -11,10 +11,11 @@ namespace Квест
     {
         public static int Level=1;
         public static int Heal=5;
-        public static int Medic=3; // кол-во аптечек
+        public static int Medic = 1; // кол-во аптечек
         public static int Points=0; //баллы
         public static int Money=0;
         public static int Ammo=10; //патроны
+        
         public void Save()
         {
             StreamWriter sw = new StreamWriter("Save.txt", false);
@@ -39,17 +40,23 @@ namespace Квест
             StreamReader sr = new StreamReader("Save.txt");
             String st;
             st = sr.ReadLine();
-            Globals.Level = System.Int32.Parse(st);
+            //if (st != "")            
+                Globals.Level = System.Int32.Parse(st);
             st = sr.ReadLine();
-            Globals.Heal = System.Int32.Parse(st);
+           // if (st != "")
+                Globals.Heal = System.Int32.Parse(st);
             st = sr.ReadLine();
-            Globals.Medic = System.Int32.Parse(st);
+            //if (st != "")
+                Globals.Medic = System.Int32.Parse(st);
             st = sr.ReadLine();
-            Globals.Points = System.Int32.Parse(st);
+            //if (st != "")
+                Globals.Points = System.Int32.Parse(st);
             st = sr.ReadLine();
-            Globals.Money = System.Int32.Parse(st);
+           // if (st != "")
+                Globals.Money = System.Int32.Parse(st);
             st = sr.ReadLine();
-            Globals.Ammo = System.Int32.Parse(st);
+          //  if (st != "")
+                Globals.Ammo = System.Int32.Parse(st);    
             sr.Close();
         }
         public void control()
@@ -60,11 +67,11 @@ namespace Квест
                 Globals.Points = 0;
             }
             if (Globals.Heal > 100)
-            {
                 Globals.Heal = 100;
-            }
             if (Globals.Heal < 0)
                 Globals.Heal = 0;
+            if (Globals.Medic < 0)
+                Globals.Medic = 0;
         }
 
         

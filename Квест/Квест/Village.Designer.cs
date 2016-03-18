@@ -45,7 +45,7 @@
             this.toolStripLabel3 = new System.Windows.Forms.ToolStripLabel();
             this.LabelMoney = new System.Windows.Forms.ToolStripLabel();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.ExitButton = new System.Windows.Forms.Button();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -184,15 +184,15 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // ExitButton
             // 
-            this.button2.Location = new System.Drawing.Point(431, 28);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(74, 54);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Покинуть игру";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.ExitButton.Location = new System.Drawing.Point(431, 28);
+            this.ExitButton.Name = "ExitButton";
+            this.ExitButton.Size = new System.Drawing.Size(74, 54);
+            this.ExitButton.TabIndex = 2;
+            this.ExitButton.Text = "Покинуть игру";
+            this.ExitButton.UseVisualStyleBackColor = true;
+            this.ExitButton.Click += new System.EventHandler(this.button2_Click);
             // 
             // FormVillage
             // 
@@ -201,7 +201,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(505, 334);
             this.ControlBox = false;
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.toolStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -233,6 +233,6 @@
         private System.Windows.Forms.ToolStripLabel toolStripLabel3;
         private System.Windows.Forms.ToolStripLabel LabelMoney;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button ExitButton;
     }
 }

@@ -19,7 +19,9 @@ namespace Квест
 
         private void PDA_Load(object sender, EventArgs e)
         {
-
+            LabelHeal.Text = Globals.Heal.ToString();
+            LabelLevel.Text = Globals.Level.ToString();
+            LabelMoney.Text = Globals.Money.ToString();
         }
 
         private void OpenMaps_Click(object sender, EventArgs e)
@@ -36,6 +38,17 @@ namespace Квест
             this.Hide();
             form2.ShowDialog();
             this.Close();
+        }
+
+        private void InventoryButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SaveButton_Click(object sender, EventArgs e)
+        {
+            Globals s = new Globals();
+            s.Save();
         }
     }
 }
