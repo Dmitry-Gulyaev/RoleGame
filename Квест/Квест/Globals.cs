@@ -89,7 +89,10 @@ namespace Квест
 
         public void Reader()
         {
-       
+            StreamReader read = new StreamReader("Save.txt");
+            read.ReadLine();
+            read.ReadLine();
+            
         }
         
     }

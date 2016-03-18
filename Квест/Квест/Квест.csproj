@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Квест</RootNamespace>
     <AssemblyName>Квест</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -70,6 +71,18 @@
     <Compile Include="FormLossDogs.Designer.cs">
       <DependentUpon>FormLossDogs.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormMapsKordon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMapsKordon.Designer.cs">
+      <DependentUpon>FormMapsKordon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPdaMaps.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPdaMaps.Designer.cs">
+      <DependentUpon>FormPdaMaps.cs</DependentUpon>
+    </Compile>
     <Compile Include="Globals.cs" />
     <Compile Include="inventory.cs">
       <SubType>Form</SubType>
@@ -109,6 +122,12 @@
     <EmbeddedResource Include="FormLossDogs.resx">
       <DependentUpon>FormLossDogs.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormMapsKordon.resx">
+      <DependentUpon>FormMapsKordon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPdaMaps.resx">
+      <DependentUpon>FormPdaMaps.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="inventory.resx">
       <DependentUpon>inventory.cs</DependentUpon>
     </EmbeddedResource>
@@ -123,6 +142,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="VictoryDogs.resx">
       <DependentUpon>VictoryDogs.cs</DependentUpon>
