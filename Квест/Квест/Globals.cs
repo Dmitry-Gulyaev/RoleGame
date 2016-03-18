@@ -51,6 +51,7 @@ namespace Квест
             st = sr.ReadLine();
             Globals.Ammo = System.Int32.Parse(st);
             sr.Close();
+        }
         public void control()
         {
             if (Globals.Points > 100)
