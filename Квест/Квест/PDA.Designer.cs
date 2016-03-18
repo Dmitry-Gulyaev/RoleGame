@@ -32,6 +32,7 @@
             this.OpenMaps = new System.Windows.Forms.Button();
             this.TaksList = new System.Windows.Forms.Button();
             this.statistics = new System.Windows.Forms.Button();
+            this.Back = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // OpenMaps
@@ -62,11 +63,23 @@
             this.statistics.Text = "Статистика";
             this.statistics.UseVisualStyleBackColor = true;
             // 
+            // Back
+            // 
+            this.Back.Location = new System.Drawing.Point(107, 156);
+            this.Back.Name = "Back";
+            this.Back.Size = new System.Drawing.Size(217, 24);
+            this.Back.TabIndex = 3;
+            this.Back.Text = "Закрыть";
+            this.Back.UseVisualStyleBackColor = true;
+            this.Back.Click += new System.EventHandler(this.Back_Click);
+            // 
             // PDA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(450, 336);
+            this.ControlBox = false;
+            this.Controls.Add(this.Back);
             this.Controls.Add(this.statistics);
             this.Controls.Add(this.TaksList);
             this.Controls.Add(this.OpenMaps);
@@ -83,5 +96,6 @@
         private System.Windows.Forms.Button OpenMaps;
         private System.Windows.Forms.Button TaksList;
         private System.Windows.Forms.Button statistics;
+        private System.Windows.Forms.Button Back;
     }
 }

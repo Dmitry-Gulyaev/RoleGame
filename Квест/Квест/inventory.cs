@@ -49,7 +49,7 @@ namespace Квест
             FormVillage form2 = new FormVillage();
             this.Hide();
             form2.ShowDialog();
-            this.Hide();
+            this.Close();
         }
 
 
@@ -58,7 +58,6 @@ namespace Квест
             PDA form3 = new PDA();
             this.Hide();
             form3.ShowDialog();
-            this.Show();
         }
 
     }

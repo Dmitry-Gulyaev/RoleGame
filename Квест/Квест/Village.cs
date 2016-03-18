@@ -24,7 +24,7 @@ namespace Квест
             PDA form3 = new PDA();
             this.Hide();
             form3.ShowDialog();
-            this.Show();
+            //this.Show();
         }
 
         private void InventoryButton_Click(object sender, EventArgs e)
@@ -65,6 +65,11 @@ namespace Квест
         {
             Globals s = new Globals();
             s.Save();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

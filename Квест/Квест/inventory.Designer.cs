@@ -192,10 +192,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-
             this.ClientSize = new System.Drawing.Size(516, 262);
+            this.ControlBox = false;
             this.Controls.Add(this.toolStrip1);
-
             this.Controls.Add(this.button1);
             this.Controls.Add(this.medicine);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

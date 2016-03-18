@@ -20,5 +20,12 @@ namespace Квест
         {
 
         }
+
+        private void back_Click(object sender, EventArgs e)
+        {
+            PDA form3 = new PDA();
+            this.Hide();
+            form3.ShowDialog();
+        }
     }
 }

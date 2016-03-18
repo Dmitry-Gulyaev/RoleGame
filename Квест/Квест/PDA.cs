@@ -27,7 +27,15 @@ namespace Квест
             FormPdaMaps form2 = new FormPdaMaps();
             this.Hide();
             form2.ShowDialog();
-            this.Show();
+            
+        }
+
+        private void Back_Click(object sender, EventArgs e)
+        {
+            FormVillage form2 = new FormVillage();
+            this.Hide();
+            form2.ShowDialog();
+            this.Close();
         }
     }
 }
