@@ -11,7 +11,7 @@ using System.Windows.Forms;
 namespace Квест
 {
     public partial class inventory : Form
-    {
+    {       
         public inventory()
         {
             InitializeComponent();
@@ -45,10 +45,45 @@ namespace Квест
             LabelLevel.Text = Globals.Level.ToString();
             LabelMoney.Text = Globals.Money.ToString();
             if (Globals.Medic > 0)
-                for (int i = 0; i <= Globals.Medic; i++)
-                    //Button Med = new Button();
-                    ;
+            {   
+                int n=Globals.Medic;
+                for (int i = 0; i < n; i++)
+                {
+                  Button med = new Button();
+                  med.Top = 30;
+                  med.Left=10+70 * i;
+                  med.Height = 40;
+                  med.Width = 50;                  
+                  med.Text = "+";
+                  med.ForeColor = System.Drawing.Color.Red;
+                  this.Controls.Add(med);                  
+                  med.Click += med_Click;                  
+                }
+            }
 
+        }
+
+        private void med_Click(object sender, EventArgs e)
+        {
+            if (Globals.Heal != 100)
+            {
+                Globals.Heal += 50;
+                Globals.Medic--;
+                //MedResource.medicine--;
+                Globals m = new Globals();
+                m.control();
+                LabelHeal.Text = Globals.Heal.ToString();
+                LabelLevel.Text = Globals.Level.ToString();
+                LabelMoney.Text = Globals.Money.ToString();
+
+                //inventory form2 = new inventory();
+                //this.Hide();
+                //form2.ShowDialog();
+
+                this.ActiveControl.Enabled = false;
+            }
+            else
+                MessageBox.Show("Здоровее некуда!");
         }
 
         private void button1_Click(object sender, EventArgs e)

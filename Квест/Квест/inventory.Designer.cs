@@ -51,11 +51,13 @@
             // 
             // medicine
             // 
-            this.medicine.Location = new System.Drawing.Point(12, 39);
+            this.medicine.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.medicine.ForeColor = System.Drawing.Color.Red;
+            this.medicine.Location = new System.Drawing.Point(337, 41);
             this.medicine.Name = "medicine";
-            this.medicine.Size = new System.Drawing.Size(167, 23);
+            this.medicine.Size = new System.Drawing.Size(50, 40);
             this.medicine.TabIndex = 0;
-            this.medicine.Text = "Использовать аптечку";
+            this.medicine.Text = "+";
             this.medicine.UseVisualStyleBackColor = true;
             this.medicine.Click += new System.EventHandler(this.medicine_Click);
             // 
