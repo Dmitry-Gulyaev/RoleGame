@@ -1,6 +1,6 @@
 ﻿namespace Квест
 {
-    partial class FormVillage
+    partial class FormSelectGun
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormVillage));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormSelectGun));
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.SaveButton = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
@@ -44,9 +44,6 @@
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripLabel3 = new System.Windows.Forms.ToolStripLabel();
             this.LabelMoney = new System.Windows.Forms.ToolStripLabel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -69,8 +66,8 @@
             this.LabelMoney});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(505, 25);
-            this.toolStrip1.TabIndex = 0;
+            this.toolStrip1.Size = new System.Drawing.Size(549, 25);
+            this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
             // 
             // SaveButton
@@ -81,7 +78,6 @@
             this.SaveButton.Name = "SaveButton";
             this.SaveButton.Size = new System.Drawing.Size(23, 22);
             this.SaveButton.Text = "Сохранить";
-            this.SaveButton.Click += new System.EventHandler(this.SaveButton_Click);
             // 
             // toolStripSeparator1
             // 
@@ -151,7 +147,6 @@
             this.LabelHeal.Name = "LabelHeal";
             this.LabelHeal.Size = new System.Drawing.Size(54, 22);
             this.LabelHeal.Text = "100 HP";
-            this.LabelHeal.Click += new System.EventHandler(this.LabelHeal_Click);
             // 
             // toolStripSeparator5
             // 
@@ -172,52 +167,17 @@
             this.LabelMoney.Size = new System.Drawing.Size(67, 22);
             this.LabelMoney.Text = "1000 руб";
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Location = new System.Drawing.Point(153, 265);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(171, 40);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Бой с собакой";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(153, 206);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(171, 40);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Магазин";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(153, 144);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(171, 40);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Основное задание";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // FormVillage
+            // FormBatleDogs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(505, 334);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.ClientSize = new System.Drawing.Size(549, 388);
             this.Controls.Add(this.toolStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "FormVillage";
-            this.Text = "Деревня новичков";
-            this.Load += new System.EventHandler(this.FormVillage_Load);
+            this.Name = "FormBatleDogs";
+            this.Text = "На вас напала псевдособака";
+            this.Load += new System.EventHandler(this.FormBatleDogs_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -242,8 +202,5 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripLabel toolStripLabel3;
         private System.Windows.Forms.ToolStripLabel LabelMoney;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
     }
 }

@@ -29,5 +29,13 @@ namespace Квест
             form2.ShowDialog();
             this.Show();
         }
+
+        private void statistics_Click(object sender, EventArgs e)
+        {
+            FormStatistica form2 = new FormStatistica();
+            this.Hide();
+            form2.ShowDialog();
+            this.Show();
+        }
     }
 }

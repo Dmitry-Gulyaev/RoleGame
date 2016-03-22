@@ -32,7 +32,7 @@ namespace Квест
             inventory form2 = new inventory();
             this.Hide();
             form2.ShowDialog();
-            //this.Show();
+            this.Show();
         }
 
         private void LabelHeal_Click(object sender, EventArgs e)
@@ -55,16 +55,24 @@ namespace Квест
 
         private void button1_Click(object sender, EventArgs e)
         {
-            FormBatleDogs form2 = new FormBatleDogs();
+            FormSelectGun form2 = new FormSelectGun();
             this.Hide();
             form2.ShowDialog();
-            this.Show();
+            this.Close();
         }
 
         private void SaveButton_Click(object sender, EventArgs e)
         {
             Globals s = new Globals();
             s.Save();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FormShopSidor form2 = new FormShopSidor();
+            this.Hide();
+            form2.ShowDialog();
+            this.Close();
         }
     }
 }

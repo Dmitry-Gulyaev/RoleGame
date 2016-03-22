@@ -20,7 +20,12 @@ namespace Квест
         private void button1_Click(object sender, EventArgs e)
         {
             Globals.Points += 10;
-            Globals.Ammo -= 1; 
+            Globals.Ammo -= 1;
+            Statistics.KillDogs += 1;
+            FormVillage form2 = new FormVillage();
+            this.Hide();
+            form2.ShowDialog();
+            this.Close();
         }
 
         private void FormVictoryDogs_Load(object sender, EventArgs e)

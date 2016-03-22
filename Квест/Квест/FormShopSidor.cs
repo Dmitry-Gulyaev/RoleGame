@@ -9,21 +9,21 @@ using System.Windows.Forms;
 
 namespace Квест
 {
-    public partial class FormPdaMaps : Form
+    public partial class FormShopSidor : Form
     {
-        public FormPdaMaps()
+        public FormShopSidor()
         {
             InitializeComponent();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
-            FormMapsKordon form2 = new FormMapsKordon();
+            FormVillage form2 = new FormVillage();
             this.Hide();
             form2.ShowDialog();
             this.Close();

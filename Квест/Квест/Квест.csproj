@@ -53,17 +53,17 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormBatleDogs.cs">
+    <Compile Include="FormSelectGun.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormBatleDogs.Designer.cs">
-      <DependentUpon>FormBatleDogs.cs</DependentUpon>
+    <Compile Include="FormSelectGun.Designer.cs">
+      <DependentUpon>FormSelectGun.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormBatleDogs_PM.cs">
+    <Compile Include="FormBatleMonster.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormBatleDogs_PM.Designer.cs">
-      <DependentUpon>FormBatleDogs_PM.cs</DependentUpon>
+    <Compile Include="FormBatleMonster.Designer.cs">
+      <DependentUpon>FormBatleMonster.cs</DependentUpon>
     </Compile>
     <Compile Include="FormLossDogs.cs">
       <SubType>Form</SubType>
@@ -83,6 +83,12 @@
     <Compile Include="FormPdaMaps.Designer.cs">
       <DependentUpon>FormPdaMaps.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormShopSidor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormShopSidor.Designer.cs">
+      <DependentUpon>FormShopSidor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Globals.cs" />
     <Compile Include="inventory.cs">
       <SubType>Form</SubType>
@@ -98,6 +104,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FormStatistica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStatistica.Designer.cs">
+      <DependentUpon>FormStatistica.cs</DependentUpon>
+    </Compile>
     <Compile Include="VictoryDogs.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,11 +125,11 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormBatleDogs.resx">
-      <DependentUpon>FormBatleDogs.cs</DependentUpon>
+    <EmbeddedResource Include="FormSelectGun.resx">
+      <DependentUpon>FormSelectGun.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormBatleDogs_PM.resx">
-      <DependentUpon>FormBatleDogs_PM.cs</DependentUpon>
+    <EmbeddedResource Include="FormBatleMonster.resx">
+      <DependentUpon>FormBatleMonster.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormLossDogs.resx">
       <DependentUpon>FormLossDogs.cs</DependentUpon>
@@ -127,6 +139,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormPdaMaps.resx">
       <DependentUpon>FormPdaMaps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormShopSidor.resx">
+      <DependentUpon>FormShopSidor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="inventory.resx">
       <DependentUpon>inventory.cs</DependentUpon>
@@ -144,6 +159,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="FormStatistica.resx">
+      <DependentUpon>FormStatistica.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="VictoryDogs.resx">
       <DependentUpon>VictoryDogs.cs</DependentUpon>
     </EmbeddedResource>
