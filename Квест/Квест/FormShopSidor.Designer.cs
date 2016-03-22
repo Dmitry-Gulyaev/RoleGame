@@ -96,6 +96,7 @@
             this.PDAButton.Name = "PDAButton";
             this.PDAButton.Size = new System.Drawing.Size(36, 22);
             this.PDAButton.Text = "ПДА";
+            this.PDAButton.Click += new System.EventHandler(this.PDAButton_Click);
             // 
             // toolStripSeparator2
             // 
@@ -110,6 +111,7 @@
             this.InventoryButton.Name = "InventoryButton";
             this.InventoryButton.Size = new System.Drawing.Size(70, 22);
             this.InventoryButton.Text = "Инвентарь";
+            this.InventoryButton.Click += new System.EventHandler(this.InventoryButton_Click);
             // 
             // toolStripSeparator3
             // 
@@ -221,6 +223,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormShopSidor";
             this.Text = "Магазин \"У Сидоровича\"";
+            this.Load += new System.EventHandler(this.FormShopSidor_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);
