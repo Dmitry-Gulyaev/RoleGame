@@ -10,6 +10,9 @@
 *.suo
 *.user
 *.sln.docstates
+*.manifest
+*.config
+*.pdb
 
 # Build results
 
