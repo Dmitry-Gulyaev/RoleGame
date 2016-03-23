@@ -15,6 +15,8 @@ namespace Квест
         public FormSelectGun()
         {
             InitializeComponent();
+            
+          
             if (Globals.Ammo < 1)
             {
                 Label lable1 = new Label();
@@ -41,10 +43,14 @@ namespace Квест
                 newbtn.Location = new Point(10, 50);
                 newbtn.Name = "newbtnPM";
                 newbtn.Size = new Size(100, 50);
+                newbtn.BackgroundImage = Image.FromFile("ПМ.jpg",false);
+                newbtn.BackgroundImageLayout = ImageLayout.Stretch;
+
                 newbtn.TabIndex = 3;
-                newbtn.Text = "Пистолет Макарова";
+                newbtn.Text = "";
                 newbtn.UseVisualStyleBackColor = true;
                 newbtn.Click += new EventHandler(newbtnPM_Click);
+                toolTip1.SetToolTip(newbtn, "Пистолет Макарова");
                 Controls.Add(newbtn);
             }
             if (Gun.PM == 0 && Globals.Ammo > 0)
@@ -70,10 +76,12 @@ namespace Квест
                 newbtn.Location = new Point(120, 50);
                 newbtn.Name = "newbtnBeretta";
                 newbtn.Size = new Size(100, 50);
+                newbtn.BackgroundImage = Image.FromFile("Beretta.jpg", false);
                 newbtn.TabIndex = 3;
-                newbtn.Text = "Beretta";
+                newbtn.Text = " ";
                 newbtn.UseVisualStyleBackColor = true;
                 newbtn.Click += new EventHandler(newbtnBeretta_Click);
+                toolTip1.SetToolTip(newbtn, "Beretta");
                 Controls.Add(newbtn);
             }
             if (Gun.Beretta == 0 && Globals.Ammo > 0)
@@ -99,10 +107,13 @@ namespace Квест
                 newbtn.Location = new Point(230, 50);
                 newbtn.Name = "newbtnDE";
                 newbtn.Size = new Size(100, 50);
+                newbtn.BackgroundImage = Image.FromFile("Desert Eagle.jpg", false);
+                newbtn.BackgroundImageLayout = ImageLayout.Stretch;
                 newbtn.TabIndex = 3;
-                newbtn.Text = "Desert Eagle";
+                newbtn.Text = "";
                 newbtn.UseVisualStyleBackColor = true;
                 newbtn.Click += new EventHandler(newbtnDE_Click);
+                toolTip1.SetToolTip(newbtn, "Desert Eagle");
                 Controls.Add(newbtn);
             }
             if (Gun.Desert_Eagle == 0 && Globals.Ammo > 0)
@@ -128,10 +139,13 @@ namespace Квест
                 newbtn.Location = new Point(10, 100);
                 newbtn.Name = "newbtnAKS74Y";
                 newbtn.Size = new Size(100, 50);
+                newbtn.BackgroundImage = Image.FromFile("АКС - 74У.jpg", false);
+                newbtn.BackgroundImageLayout = ImageLayout.Stretch;
                 newbtn.TabIndex = 3;
-                newbtn.Text = "АКС - 74У";
+                newbtn.Text = " ";
                 newbtn.UseVisualStyleBackColor = true;
                 newbtn.Click += new EventHandler(newbtnAKS74Y_Click);
+                toolTip1.SetToolTip(newbtn, "АКС - 74У");
                 Controls.Add(newbtn);
             }
             if (Gun.AKS_74Y == 0 && Globals.Ammo > 0)
@@ -157,10 +171,13 @@ namespace Квест
                 newbtn.Location = new Point(120, 100);
                 newbtn.Name = "newbtnAK_105";
                 newbtn.Size = new Size(100, 50);
+                newbtn.BackgroundImage = Image.FromFile("АК - 105.jpg", false);
+                newbtn.BackgroundImageLayout = ImageLayout.Stretch;
                 newbtn.TabIndex = 3;
-                newbtn.Text = "АК - 105";
+                newbtn.Text = "";
                 newbtn.UseVisualStyleBackColor = true;
                 newbtn.Click += new EventHandler(newbtnAK105_Click);
+                toolTip1.SetToolTip(newbtn, "АК - 105");
                 Controls.Add(newbtn);
             }
             if (Gun.AK_105 == 0 && Globals.Ammo > 0)
@@ -186,10 +203,13 @@ namespace Квест
                 newbtn.Location = new Point(230, 100);
                 newbtn.Name = "newbtnAH_94";
                 newbtn.Size = new Size(100, 50);
+                newbtn.BackgroundImage = Image.FromFile("АН - 94.jpg", false);
+                newbtn.BackgroundImageLayout = ImageLayout.Stretch;
                 newbtn.TabIndex = 3;
-                newbtn.Text = "АH - 94";
+                newbtn.Text = "";
                 newbtn.UseVisualStyleBackColor = true;
                 newbtn.Click += new EventHandler(newbtnAH94_Click);
+                toolTip1.SetToolTip(newbtn, "АH - 94");
                 Controls.Add(newbtn);
             }
             if (Gun.AH_94 == 0 && Globals.Ammo > 0)
@@ -215,10 +235,13 @@ namespace Квест
                 newbtn.Location = new Point(10, 150);
                 newbtn.Name = "newbtnTOZ34";
                 newbtn.Size = new Size(100, 50);
+                newbtn.BackgroundImage = Image.FromFile("ТОЗ - 34.jpg", false);
+                newbtn.BackgroundImageLayout = ImageLayout.Stretch;
                 newbtn.TabIndex = 3;
-                newbtn.Text = "ТОЗ - 34";
+                newbtn.Text = "";
                 newbtn.UseVisualStyleBackColor = true;
                 newbtn.Click += new EventHandler(newbtnTOZ34_Click);
+                toolTip1.SetToolTip(newbtn, "ТОЗ - 34");
                 Controls.Add(newbtn);
             }
             if (Gun.TOZ34 == 0 && Globals.Ammo > 0)
@@ -244,10 +267,13 @@ namespace Квест
                 newbtn.Location = new Point(120, 150);
                 newbtn.Name = "newbtnShotGun";
                 newbtn.Size = new Size(100, 50);
+                newbtn.BackgroundImage = Image.FromFile("Ружье.jpg", false);
+                newbtn.BackgroundImageLayout = ImageLayout.Stretch;
                 newbtn.TabIndex = 3;
-                newbtn.Text = "Ружье";
+                newbtn.Text = "";
                 newbtn.UseVisualStyleBackColor = true;
                 newbtn.Click += new EventHandler(newbtnShotGun_Click);
+                toolTip1.SetToolTip(newbtn, "Ружье");
                 Controls.Add(newbtn);
             }
             if (Gun.ShotGun == 0 && Globals.Ammo > 0)
@@ -273,10 +299,13 @@ namespace Квест
                 newbtn.Location = new Point(230, 150);
                 newbtn.Name = "newbtnSaiga_12";
                 newbtn.Size = new Size(100, 50);
+                newbtn.BackgroundImage = Image.FromFile("Сайга.jpg", false);
+                newbtn.BackgroundImageLayout = ImageLayout.Stretch;
                 newbtn.TabIndex = 3;
-                newbtn.Text = "Сайга - 12";
+                newbtn.Text = "";
                 newbtn.UseVisualStyleBackColor = true;
                 newbtn.Click += new EventHandler(newbtnSaiga12_Click);
+                toolTip1.SetToolTip(newbtn, "Сайга - 12");
                 Controls.Add(newbtn);
             }
             if (Gun.Saiga_12 == 0 && Globals.Ammo > 0)
@@ -302,10 +331,13 @@ namespace Квест
                 newbtn.Location = new Point(10, 200);
                 newbtn.Name = "newbtnDragunov_sniper_rifle";
                 newbtn.Size = new Size(100, 50);
+                newbtn.BackgroundImage = Image.FromFile("СВД.jpg", false);
+                newbtn.BackgroundImageLayout = ImageLayout.Stretch;
                 newbtn.TabIndex = 3;
-                newbtn.Text = "СВД";
+                newbtn.Text = "";
                 newbtn.UseVisualStyleBackColor = true;
                 newbtn.Click += new EventHandler(newbtnDragunov_sniper_rifle_Click);
+                toolTip1.SetToolTip(newbtn, "СВД");
                 Controls.Add(newbtn);
             }
             if (Gun.Dragunov_sniper_rifle == 0 && Globals.Ammo > 0)
@@ -331,10 +363,13 @@ namespace Квест
                 newbtn.Location = new Point(120, 200);
                 newbtn.Name = "newbtnVintorez";
                 newbtn.Size = new Size(100, 50);
+                newbtn.BackgroundImage = Image.FromFile("Винторез.jpg", false);
+                newbtn.BackgroundImageLayout = ImageLayout.Stretch;
                 newbtn.TabIndex = 3;
-                newbtn.Text = "Винторез";
+                newbtn.Text = "";
                 newbtn.UseVisualStyleBackColor = true;
                 newbtn.Click += new EventHandler(newbtnVintorez_Click);
+                toolTip1.SetToolTip(newbtn, "Винторез");
                 Controls.Add(newbtn);
             }
             if (Gun.Vintorez == 0 && Globals.Ammo > 0)
@@ -360,10 +395,13 @@ namespace Квест
                 newbtn.Location = new Point(230, 200);
                 newbtn.Name = "newbtnGaus_Gun";
                 newbtn.Size = new Size(100, 50);
+                newbtn.BackgroundImage = Image.FromFile("Гаус пушка.jpg", false);
+                newbtn.BackgroundImageLayout = ImageLayout.Stretch;
                 newbtn.TabIndex = 3;
-                newbtn.Text = "Гаус Пушка";
+                newbtn.Text = "";
                 newbtn.UseVisualStyleBackColor = true;
                 newbtn.Click += new EventHandler(newbtnGausGun_Click);
+                toolTip1.SetToolTip(newbtn, "Гаус Пушка");
                 Controls.Add(newbtn);
             }
             if (Gun.Gaus_Gun == 0 && Globals.Ammo > 0)
@@ -537,6 +575,7 @@ namespace Квест
 
         private void FormBatleDogs_Load(object sender, EventArgs e)
         {
+
             LabelHeal.Text = Globals.Heal.ToString();
             LabelLevel.Text = Globals.Level.ToString();
             LabelMoney.Text = Globals.Money.ToString();
