@@ -55,6 +55,7 @@ namespace Квест
 
         private void button1_Click(object sender, EventArgs e)
         {
+            id.Monster = 3;
             FormSelectGun form2 = new FormSelectGun();
             this.Hide();
             form2.ShowDialog();
