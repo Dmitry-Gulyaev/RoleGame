@@ -10,9 +10,10 @@
 *.suo
 *.user
 *.sln.docstates
-*.manifest
-*.config
-*.pdb
+Квест.vshost.exe.manifest
+Квест.vshost.exe.config
+Квест.pdb
+Квест.exe.config
 
 # Build results
 
