@@ -43,7 +43,7 @@ namespace Квест
                 newbtn.Location = new Point(10, 50);
                 newbtn.Name = "newbtnPM";
                 newbtn.Size = new Size(100, 50);
-                newbtn.BackgroundImage = Image.FromFile("ПМ.jpg",false);
+              //  newbtn.BackgroundImage = Image.FromFile("ПМ.jpg",false);
                 newbtn.BackgroundImageLayout = ImageLayout.Stretch;
 
                 newbtn.TabIndex = 3;

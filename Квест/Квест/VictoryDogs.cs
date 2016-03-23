@@ -30,6 +30,8 @@ namespace Квест
 
         private void FormVictoryDogs_Load(object sender, EventArgs e)
         {
+            label1.BackColor = Color.Transparent;
+
             LabelHeal.Text = Globals.Heal.ToString();
             LabelLevel.Text = Globals.Level.ToString();
             LabelMoney.Text = Globals.Money.ToString();

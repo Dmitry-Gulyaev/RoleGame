@@ -27,6 +27,8 @@ namespace Квест
             if (Globals.Heal > 0)
             {
                 Globals.Ammo -= 1;
+                label1.BackColor = Color.Transparent;
+                label1.ForeColor = Color.White;
                 label1.Text = "Собака вгрызлась Вам в плоть, но \nВам удалось вырваться из ее когтей.\n-1 парон ";
                 Button con = new Button();
                 con.Location = new Point(200, 200);
@@ -41,7 +43,7 @@ namespace Квест
             else
             {
                 Globals.Ammo -= 1;
-
+                label1.BackColor = Color.Transparent;
                 label1.Text = "Вы тяжело ранены.\n За Ваше лечение у Вас будет взята некоторая сумма денег."; // здесь нужна проверка на нахождение персонажа относительно локации
                 
                 Random rand = new Random();

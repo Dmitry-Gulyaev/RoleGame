@@ -178,6 +178,7 @@ namespace Квест
         public static int Monster;
         public static int SelGun;
         public static int Click;
+        public static int Seller; 
     }
                 
     }

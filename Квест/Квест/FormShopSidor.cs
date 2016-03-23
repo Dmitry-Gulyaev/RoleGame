@@ -18,7 +18,11 @@ namespace Квест
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            id.Seller = 1;
+            FormShopGun form2 = new FormShopGun();
+            this.Hide();
+            form2.ShowDialog();
+            this.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -50,6 +54,15 @@ namespace Квест
             this.Hide();
             form3.ShowDialog();
             this.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            id.Seller = 1;
+            FormShopMed form2 = new FormShopMed();
+            this.Hide();
+            form2.ShowDialog();
+            this.Close();
         }
     }
 }

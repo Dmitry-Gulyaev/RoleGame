@@ -83,6 +83,18 @@
     <Compile Include="FormPdaMaps.Designer.cs">
       <DependentUpon>FormPdaMaps.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormShopGun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormShopGun.Designer.cs">
+      <DependentUpon>FormShopGun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormShopMed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormShopMed.Designer.cs">
+      <DependentUpon>FormShopMed.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormShopSidor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -139,6 +151,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormPdaMaps.resx">
       <DependentUpon>FormPdaMaps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormShopGun.resx">
+      <DependentUpon>FormShopGun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormShopMed.resx">
+      <DependentUpon>FormShopMed.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormShopSidor.resx">
       <DependentUpon>FormShopSidor.cs</DependentUpon>

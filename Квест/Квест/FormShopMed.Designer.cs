@@ -1,6 +1,6 @@
 ﻿namespace Квест
 {
-    partial class FormLossDogs
+    partial class FormShopMed
     {
         /// <summary>
         /// Required designer variable.
@@ -28,33 +28,50 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormLossDogs));
-            this.label1 = new System.Windows.Forms.Label();
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormShopMed));
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.SaveButton = new System.Windows.Forms.ToolStripButton();
-            this.PDAButton = new System.Windows.Forms.ToolStripButton();
-            this.InventoryButton = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.PDAButton = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.InventoryButton = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
             this.LabelLevel = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
             this.LabelHeal = new System.Windows.Forms.ToolStripLabel();
-            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripLabel3 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.toolStripLabel3 = new System.Windows.Forms.ToolStripLabel();
             this.LabelMoney = new System.Windows.Forms.ToolStripLabel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
+            // toolStrip1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(39, 48);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 13);
-            this.label1.TabIndex = 0;
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.SaveButton,
+            this.toolStripSeparator1,
+            this.PDAButton,
+            this.toolStripSeparator2,
+            this.InventoryButton,
+            this.toolStripSeparator3,
+            this.toolStripLabel1,
+            this.LabelLevel,
+            this.toolStripSeparator4,
+            this.toolStripLabel2,
+            this.LabelHeal,
+            this.toolStripSeparator5,
+            this.toolStripLabel3,
+            this.LabelMoney});
+            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(504, 25);
+            this.toolStrip1.TabIndex = 2;
+            this.toolStrip1.Text = "toolStrip1";
             // 
             // SaveButton
             // 
@@ -65,6 +82,11 @@
             this.SaveButton.Size = new System.Drawing.Size(23, 22);
             this.SaveButton.Text = "Сохранить";
             // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
+            // 
             // PDAButton
             // 
             this.PDAButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
@@ -73,6 +95,12 @@
             this.PDAButton.Name = "PDAButton";
             this.PDAButton.Size = new System.Drawing.Size(36, 22);
             this.PDAButton.Text = "ПДА";
+            this.PDAButton.Click += new System.EventHandler(this.PDAButton_Click);
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
             // 
             // InventoryButton
             // 
@@ -82,16 +110,7 @@
             this.InventoryButton.Name = "InventoryButton";
             this.InventoryButton.Size = new System.Drawing.Size(70, 22);
             this.InventoryButton.Text = "Инвентарь";
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
-            // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
+            this.InventoryButton.Click += new System.EventHandler(this.InventoryButton_Click);
             // 
             // toolStripSeparator3
             // 
@@ -113,6 +132,11 @@
             this.LabelLevel.Size = new System.Drawing.Size(35, 22);
             this.LabelLevel.Text = "1(0)";
             // 
+            // toolStripSeparator4
+            // 
+            this.toolStripSeparator4.Name = "toolStripSeparator4";
+            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 25);
+            // 
             // toolStripLabel2
             // 
             this.toolStripLabel2.Name = "toolStripLabel2";
@@ -127,44 +151,16 @@
             this.LabelHeal.Size = new System.Drawing.Size(54, 22);
             this.LabelHeal.Text = "100 HP";
             // 
-            // toolStripSeparator4
+            // toolStripSeparator5
             // 
-            this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 25);
+            this.toolStripSeparator5.Name = "toolStripSeparator5";
+            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 25);
             // 
             // toolStripLabel3
             // 
             this.toolStripLabel3.Name = "toolStripLabel3";
             this.toolStripLabel3.Size = new System.Drawing.Size(42, 22);
             this.toolStripLabel3.Text = "Денег:";
-            // 
-            // toolStripSeparator5
-            // 
-            this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 25);
-            // 
-            // toolStrip1
-            // 
-            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.SaveButton,
-            this.toolStripSeparator1,
-            this.PDAButton,
-            this.toolStripSeparator2,
-            this.InventoryButton,
-            this.toolStripSeparator3,
-            this.toolStripLabel1,
-            this.LabelLevel,
-            this.toolStripSeparator4,
-            this.toolStripLabel2,
-            this.LabelHeal,
-            this.toolStripSeparator5,
-            this.toolStripLabel3,
-            this.LabelMoney});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
-            this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(490, 25);
-            this.toolStrip1.TabIndex = 3;
-            this.toolStrip1.Text = "toolStrip1";
             // 
             // LabelMoney
             // 
@@ -174,19 +170,26 @@
             this.LabelMoney.Size = new System.Drawing.Size(67, 22);
             this.LabelMoney.Text = "1000 руб";
             // 
-            // FormLossDogs
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(12, 25);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "label1";
+            // 
+            // FormShopMed
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(490, 262);
-            this.Controls.Add(this.toolStrip1);
+            this.ClientSize = new System.Drawing.Size(504, 311);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.toolStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "FormLossDogs";
-            this.Text = "Вы проиграли!";
-            this.Load += new System.EventHandler(this.FormLossDogs_Load);
+            this.Name = "FormShopMed";
+            this.Text = "Медикаменты на ветрине";
+            this.Load += new System.EventHandler(this.FormShopMed_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -196,21 +199,22 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripButton SaveButton;
-        private System.Windows.Forms.ToolStripButton PDAButton;
-        private System.Windows.Forms.ToolStripButton InventoryButton;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ToolStripButton PDAButton;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private System.Windows.Forms.ToolStripButton InventoryButton;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
         private System.Windows.Forms.ToolStripLabel toolStripLabel1;
         private System.Windows.Forms.ToolStripLabel LabelLevel;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
         private System.Windows.Forms.ToolStripLabel toolStripLabel2;
         private System.Windows.Forms.ToolStripLabel LabelHeal;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
-        private System.Windows.Forms.ToolStripLabel toolStripLabel3;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
-        private System.Windows.Forms.ToolStrip toolStrip1;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel3;
         private System.Windows.Forms.ToolStripLabel LabelMoney;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }
