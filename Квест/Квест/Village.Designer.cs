@@ -187,16 +187,21 @@
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.SystemColors.Control;
+            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
+            this.button2.ForeColor = System.Drawing.SystemColors.Control;
             this.button2.Location = new System.Drawing.Point(153, 206);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(171, 40);
             this.button2.TabIndex = 2;
             this.button2.Text = "Магазин";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
+            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
+            this.button3.ForeColor = System.Drawing.SystemColors.Control;
             this.button3.Location = new System.Drawing.Point(153, 144);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(171, 40);

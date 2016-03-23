@@ -34,7 +34,7 @@ namespace Квест
                 int menace = 3 /*hit = 0*/;
                 if (Globals.Level == 1 || Globals.Level == 2)
                     menace = 3;
-                if (Globals.Level == 3 || Globals.Level == 4 && Globals.Level == 5)
+                if (Globals.Level == 3 || Globals.Level == 4 || Globals.Level == 5)
                     menace = 1;
                 if (Globals.Level > 5)
                 {

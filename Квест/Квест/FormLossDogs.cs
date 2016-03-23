@@ -42,7 +42,6 @@ namespace Квест
             {
                 Globals.Ammo -= 1;
                 label1.Text = "Вы погибли.\n За Ваше лечение у Вас будет взята некоторая сумма денег."; // здесь нужна проверка на нахождение персонажа относительно локации
-                
                 Random rand = new Random();
                 int MinusMoney = rand.Next(100, 300);
                 Globals.Money -= MinusMoney;
