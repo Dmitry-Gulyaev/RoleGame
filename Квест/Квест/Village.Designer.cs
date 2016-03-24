@@ -47,6 +47,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -69,7 +70,7 @@
             this.LabelMoney});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(505, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(595, 25);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -177,7 +178,7 @@
             this.button1.BackColor = System.Drawing.Color.White;
             this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
             this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Location = new System.Drawing.Point(153, 265);
+            this.button1.Location = new System.Drawing.Point(15, 247);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(171, 40);
             this.button1.TabIndex = 1;
@@ -190,7 +191,7 @@
             this.button2.BackColor = System.Drawing.SystemColors.Control;
             this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
             this.button2.ForeColor = System.Drawing.SystemColors.Control;
-            this.button2.Location = new System.Drawing.Point(153, 206);
+            this.button2.Location = new System.Drawing.Point(15, 201);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(171, 40);
             this.button2.TabIndex = 2;
@@ -202,19 +203,32 @@
             // 
             this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
             this.button3.ForeColor = System.Drawing.SystemColors.Control;
-            this.button3.Location = new System.Drawing.Point(153, 144);
+            this.button3.Location = new System.Drawing.Point(15, 155);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(171, 40);
             this.button3.TabIndex = 3;
             this.button3.Text = "Основное задание";
             this.button3.UseVisualStyleBackColor = true;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(12, 326);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(578, 65);
+            this.label1.TabIndex = 4;
+            this.label1.Text = resources.GetString("label1.Text");
+            // 
             // FormVillage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(505, 334);
+            this.ClientSize = new System.Drawing.Size(595, 400);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -250,5 +264,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label1;
     }
 }

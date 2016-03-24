@@ -37,9 +37,9 @@
             // 
             // OpenMaps
             // 
-            this.OpenMaps.Location = new System.Drawing.Point(107, 34);
+            this.OpenMaps.Location = new System.Drawing.Point(408, 147);
             this.OpenMaps.Name = "OpenMaps";
-            this.OpenMaps.Size = new System.Drawing.Size(217, 23);
+            this.OpenMaps.Size = new System.Drawing.Size(148, 23);
             this.OpenMaps.TabIndex = 0;
             this.OpenMaps.Text = "Открыть карту";
             this.OpenMaps.UseVisualStyleBackColor = true;
@@ -47,18 +47,18 @@
             // 
             // TaksList
             // 
-            this.TaksList.Location = new System.Drawing.Point(107, 63);
+            this.TaksList.Location = new System.Drawing.Point(408, 176);
             this.TaksList.Name = "TaksList";
-            this.TaksList.Size = new System.Drawing.Size(217, 23);
+            this.TaksList.Size = new System.Drawing.Size(148, 23);
             this.TaksList.TabIndex = 1;
             this.TaksList.Text = "Список заданий";
             this.TaksList.UseVisualStyleBackColor = true;
             // 
             // statistics
             // 
-            this.statistics.Location = new System.Drawing.Point(107, 92);
+            this.statistics.Location = new System.Drawing.Point(408, 205);
             this.statistics.Name = "statistics";
-            this.statistics.Size = new System.Drawing.Size(217, 24);
+            this.statistics.Size = new System.Drawing.Size(148, 24);
             this.statistics.TabIndex = 2;
             this.statistics.Text = "Статистика";
             this.statistics.UseVisualStyleBackColor = true;
@@ -66,9 +66,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(107, 122);
+            this.button1.Location = new System.Drawing.Point(408, 235);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(217, 23);
+            this.button1.Size = new System.Drawing.Size(148, 23);
             this.button1.TabIndex = 3;
             this.button1.Text = "Энциклопедия сталкера";
             this.button1.UseVisualStyleBackColor = true;
@@ -77,7 +77,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(450, 336);
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.BackgroundImage = global::Квест.Properties.Resources.ПДАjpg1;
+            this.ClientSize = new System.Drawing.Size(670, 498);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.statistics);
             this.Controls.Add(this.TaksList);

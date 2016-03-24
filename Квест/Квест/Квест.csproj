@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Квест</RootNamespace>
-    <AssemblyName>Квест</AssemblyName>
+    <AssemblyName>S.T.A.L.K.E.R. Сердце Оазиса</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -31,6 +31,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>mini.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualBasic" />
@@ -204,6 +207,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Аптечка.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Псевдопес.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ПДАjpg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ПДАjpg1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="mini.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

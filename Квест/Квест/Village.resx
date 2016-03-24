@@ -14935,6 +14935,13 @@
         8NfC/wCGfgELJH4aslbZ80jxKCfrxXyeN8XXD3IR1PpKPgjl6V5yX3n/2Q==
 </value>
   </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Локация: Деревня новичков. 
+Является базой карты "Кордон". - порог Зоны. Деревня новичков - населенный сталкерами пункт, ближайший 
+от блокпоста.Здесь собираются сталкеры новички и профессионалы, готовые дать новичкам не пыльную 
+работу, или наоборот. Сделать из них пушечное мясо, выдавая работу за простой способ заработать. 
+В деревеньке имеется бункер известного торговца Сидоровича. </value>
+  </data>
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcI

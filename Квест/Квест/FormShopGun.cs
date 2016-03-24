@@ -82,7 +82,7 @@ namespace Квест
                 toz.Text = "ТОЗ - 34 ";
                 toz.UseVisualStyleBackColor = true;
                 toz.Click += new EventHandler(toz_Click);
-                toolTip1.SetToolTip(toz, "ТОЗ - 34\nЦена: 2000 RUB\n\nИнформация из энциклопедии:\nПозволяет выбрать 2 числа и повышает шанс на 1");
+                toolTip1.SetToolTip(toz, "ТОЗ - 34\nЦена: 2300 RUB\n\nИнформация из энциклопедии:\nПозволяет выбрать 2 числа и повышает шанс на 1");
                 Controls.Add(toz);
 
 
