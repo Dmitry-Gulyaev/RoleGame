@@ -31,11 +31,11 @@ namespace Квест
                 newbtn.Location = new Point(10, 70);
                 newbtn.Name = "newbtnPM";
                 newbtn.Size = new Size(100, 50);
-               // newbtn.BackgroundImage = Image.FromFile("ПМ.jpg", false);
+                newbtn.BackgroundImage = Image.FromFile("ПМ.jpg", false);
                // newbtn.BackgroundImageLayout = ImageLayout.Stretch;
 
                 newbtn.TabIndex = 3;
-                newbtn.Text = "ПМ";
+                newbtn.Text = " ";
                 newbtn.UseVisualStyleBackColor = true;
                 newbtn.Click += new EventHandler(newbtnPM_Click);
                 toolTip1.SetToolTip(newbtn, "Пистолет Макарова\nЦена: 700 RUB\n\nИнформация из энциклопедии:\nНе влияет на шанс.");
@@ -45,11 +45,11 @@ namespace Квест
                 Button newbtnbrt = new Button();
                 newbtnbrt.Location = new Point(120, 70);
                 newbtnbrt.Name = "newbtnBeretta";
-               newbtnbrt.Size = new Size(100, 50);
-               // newbtnbrt.BackgroundImage = Image.FromFile("Beretta.jpg", false);
+                newbtnbrt.Size = new Size(100, 50);
+                newbtnbrt.BackgroundImage = Image.FromFile("Beretta.jpg", false);
 
                 newbtnbrt.TabIndex = 3;
-                newbtnbrt.Text = "Beretta ";
+                newbtnbrt.Text = "";
                 newbtnbrt.UseVisualStyleBackColor = true;
                 newbtnbrt.Click += new EventHandler(newbtnBeretta_Click);
                 toolTip1.SetToolTip(newbtnbrt, "Beretta\nЦена: 1000 RUB\n\nИнформация из энциклопедии:\nПовышает шанс на 1");
@@ -61,10 +61,10 @@ namespace Квест
                 aks.Location = new Point(230, 70);
                 aks.Name = "aks";
                 aks.Size = new Size(100, 50);
-                // aks.BackgroundImage = Image.FromFile("АКС - 74У.jpg", false);
+                aks.BackgroundImage = Image.FromFile("АКС - 74У.jpg", false);
 
                 aks.TabIndex = 3;
-                aks.Text = "АКС - 74У ";
+                aks.Text = " ";
                 aks.UseVisualStyleBackColor = true;
                 aks.Click += new EventHandler(aks_Click);
                 toolTip1.SetToolTip(aks, "АКС - 74У\nЦена: 2000 RUB\n\nИнформация из энциклопедии:\nПозволяет выбрать 2 числа");
@@ -76,10 +76,10 @@ namespace Квест
                 toz.Location = new Point(10, 120);
                 toz.Name = "TOZ";
                 toz.Size = new Size(100, 50);
-                // toz.BackgroundImage = Image.FromFile("ТОЗ - 34.jpg", false);
+                toz.BackgroundImage = Image.FromFile("ТОЗ - 34.jpg", false);
 
                 toz.TabIndex = 3;
-                toz.Text = "ТОЗ - 34 ";
+                toz.Text = "";
                 toz.UseVisualStyleBackColor = true;
                 toz.Click += new EventHandler(toz_Click);
                 toolTip1.SetToolTip(toz, "ТОЗ - 34\nЦена: 2300 RUB\n\nИнформация из энциклопедии:\nПозволяет выбрать 2 числа и повышает шанс на 1");
