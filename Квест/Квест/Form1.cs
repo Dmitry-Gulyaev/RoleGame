@@ -16,6 +16,7 @@ namespace Квест
         public FormIntro()
         {
             InitializeComponent();
+            label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
         }
 
         private void button1_Click(object sender, EventArgs e)

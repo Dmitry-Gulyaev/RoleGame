@@ -62,7 +62,18 @@ namespace Квест
             FormShopMed form2 = new FormShopMed();
             this.Hide();
             form2.ShowDialog();
-            this.Close();
+            this.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            id.Seller = 1;
+
+            
+            FormSellGun form2 = new FormSellGun();
+            this.Hide();
+            form2.ShowDialog();
+            this.Show();
         }
     }
 }

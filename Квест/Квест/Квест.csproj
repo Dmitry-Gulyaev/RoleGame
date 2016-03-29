@@ -86,6 +86,12 @@
     <Compile Include="FormPdaMaps.Designer.cs">
       <DependentUpon>FormPdaMaps.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormSellGun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSellGun.Designer.cs">
+      <DependentUpon>FormSellGun.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormShopGun.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -154,6 +160,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormPdaMaps.resx">
       <DependentUpon>FormPdaMaps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSellGun.resx">
+      <DependentUpon>FormSellGun.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormShopGun.resx">
       <DependentUpon>FormShopGun.cs</DependentUpon>
