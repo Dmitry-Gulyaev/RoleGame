@@ -55,9 +55,10 @@
             this.label1.BackColor = System.Drawing.SystemColors.ControlDark;
             this.label1.Location = new System.Drawing.Point(12, 43);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(133, 39);
+            this.label1.Size = new System.Drawing.Size(120, 26);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Вы победили псевдопса!\r\n- 1 патрон\r\n+ 10 опыта";
+            this.label1.Text = "Вы победили мутанта!\r\n- 1 патрон\r\n";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button1
             // 
@@ -100,6 +101,7 @@
             this.SaveButton.Name = "SaveButton";
             this.SaveButton.Size = new System.Drawing.Size(23, 22);
             this.SaveButton.Text = "Сохранить";
+            this.SaveButton.Click += new System.EventHandler(this.SaveButton_Click);
             // 
             // toolStripSeparator1
             // 

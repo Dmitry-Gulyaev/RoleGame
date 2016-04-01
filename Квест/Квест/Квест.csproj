@@ -56,6 +56,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormLocation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLocation.designer.cs">
+      <DependentUpon>FormLocation.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormSelectGun.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +116,12 @@
     <Compile Include="FormShopSidor.Designer.cs">
       <DependentUpon>FormShopSidor.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormTravel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTravel.Designer.cs">
+      <DependentUpon>FormTravel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Globals.cs" />
     <Compile Include="inventory.cs">
       <SubType>Form</SubType>
@@ -146,6 +158,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormLocation.resx">
+      <DependentUpon>FormLocation.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormSelectGun.resx">
       <DependentUpon>FormSelectGun.cs</DependentUpon>
     </EmbeddedResource>
@@ -172,6 +187,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormShopSidor.resx">
       <DependentUpon>FormShopSidor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTravel.resx">
+      <DependentUpon>FormTravel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="inventory.resx">
       <DependentUpon>inventory.cs</DependentUpon>

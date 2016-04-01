@@ -74,5 +74,12 @@ namespace Квест
             form3.ShowDialog();
             this.Show();
         }
+
+        private void SaveButton_Click(object sender, EventArgs e)
+        {
+            Globals s = new Globals();
+            s.Save();
+            MessageBox.Show("Процесс игры сохранен.");
+        }
     }
 }

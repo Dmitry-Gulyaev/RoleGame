@@ -232,6 +232,7 @@
             this.button4.TabIndex = 5;
             this.button4.Text = "Идти в Зону";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // FormVillage
             // 

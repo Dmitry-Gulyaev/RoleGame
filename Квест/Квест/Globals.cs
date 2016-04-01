@@ -171,15 +171,35 @@ namespace Квест
     }
     public static class Statistics
     {
+        public static int KillFlech;
+        public static int KillBoar;
         public static int KillDogs;
-    }
+        public static int KillSnork;
+        public static int KillLeech;
+        public static int KillPoltergeist;
+        public static int KillController;
+        public static int KillByurer;
+        public static int KillChimera;
+        public static int KillGiant;
+        }
     public static class id
     {
         public static int Monster;
         public static int SelGun;
-        public static int Click;
-        public static int Seller; 
+        public static int Click;  //переменная для подсчета количества выстрелов из автоматов
+        public static int Seller; // продавцы. 1- Сидорович
+        public static int Maps; // ид карт. 1-кордон, 2 -затон, 3-юпитер,4-припять
+        public static int Location; // ид локаций. У баз ид=0
+
+
     }
+    public static class Contr // отвечает за генерацию юнитов, под контролем которых находятся динамические локации.
+    {
+        public static int Farm; // если 0-пусто, 1- бандиты, 2-сталкеры.
+        public static int SecretFarmCatacombs = 0; // переменная отвечающая за найденные секретные катакомбы на ферме
+
+    }
+
                 
     }
 

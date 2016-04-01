@@ -38,7 +38,10 @@ namespace Квест
 
         private void FormIntro_Load(object sender, EventArgs e)
         {
-            
+         
+            Random rand = new Random();
+            Contr.Farm = rand.Next(0, 2);
+        
         }
     }
 }

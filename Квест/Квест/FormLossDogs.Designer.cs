@@ -64,6 +64,7 @@
             this.SaveButton.Name = "SaveButton";
             this.SaveButton.Size = new System.Drawing.Size(23, 22);
             this.SaveButton.Text = "Сохранить";
+            this.SaveButton.Click += new System.EventHandler(this.SaveButton_Click);
             // 
             // PDAButton
             // 
@@ -171,7 +172,7 @@
             this.LabelMoney.Font = new System.Drawing.Font("Tempus Sans ITC", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LabelMoney.ForeColor = System.Drawing.Color.Goldenrod;
             this.LabelMoney.Name = "LabelMoney";
-            this.LabelMoney.Size = new System.Drawing.Size(67, 22);
+            this.LabelMoney.Size = new System.Drawing.Size(67, 16);
             this.LabelMoney.Text = "1000 руб";
             // 
             // FormLossDogs

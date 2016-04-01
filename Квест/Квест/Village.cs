@@ -15,6 +15,8 @@ namespace Квест
         public FormVillage()
         {           
             InitializeComponent();
+            id.Maps = 1;
+            id.Location = 0;
             
         }
 
@@ -66,11 +68,20 @@ namespace Квест
         {
             Globals s = new Globals();
             s.Save();
+            MessageBox.Show("Процесс игры сохранен.");
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             FormShopSidor form2 = new FormShopSidor();
+            this.Hide();
+            form2.ShowDialog();
+            this.Close();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            FormTravel form2 = new FormTravel();
             this.Hide();
             form2.ShowDialog();
             this.Close();

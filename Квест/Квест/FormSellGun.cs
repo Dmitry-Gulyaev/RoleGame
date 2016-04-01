@@ -77,7 +77,6 @@ namespace Квест
                         
                     }
                     DESell.Location = new Point(X, Y);
-                    X = X + 110;
                     DESell.Size = new Size(100, 50);
                     DESell.Click += new EventHandler(DESell_Click);
                     DESell.BackgroundImage = Image.FromFile("Desert Eagle.jpg", false);
@@ -98,7 +97,6 @@ namespace Квест
                         
                     }
                     AKSSell.Location = new Point(X, Y);
-                    X = X + 110;
                     AKSSell.Size = new Size(100, 50);
                     AKSSell.Click += new EventHandler(AKSSell_Click);
                     AKSSell.BackgroundImage = Image.FromFile("АКС - 74У.jpg", false);
@@ -484,6 +482,13 @@ namespace Квест
             this.Hide();
             form3.ShowDialog();
             this.Show();
+        }
+
+        private void SaveButton_Click(object sender, EventArgs e)
+        {
+            Globals s = new Globals();
+            s.Save();
+            MessageBox.Show("Процесс игры сохранен.");
         }
     }
 }

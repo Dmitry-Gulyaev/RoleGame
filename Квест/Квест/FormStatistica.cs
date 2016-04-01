@@ -23,7 +23,16 @@ namespace Квест
 
         private void FormStatistica_Load(object sender, EventArgs e)
         {
-            label2.Text = Statistics.KillDogs.ToString();
+            label1.Text = "Убито Псевдособак:" + Statistics.KillDogs.ToString();
+            label3.Text = "Убито Псевдоплотей :" + Statistics.KillFlech.ToString();
+            label4.Text = "Убито Кабанов :" + Statistics.KillBoar.ToString();
+            label5.Text = "Убито Снорков  :" + Statistics.KillSnork.ToString();
+            label6.Text = "Убито Полтергейст :" + Statistics.KillPoltergeist.ToString();
+            label7.Text = "Убито Контролеров :" + Statistics.KillController.ToString();
+            label8.Text = "Убито Бюреров :" + Statistics.KillByurer.ToString();
+            label9.Text = "Убито Химер :" + Statistics.KillChimera.ToString();
+            label10.Text = "Убито Псевдогигантов :" + Statistics.KillGiant.ToString();
+            label11.Text = "Убито Кровососов :" + Statistics.KillLeech.ToString();
         }
     }
 }
