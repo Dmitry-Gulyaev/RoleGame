@@ -86,7 +86,7 @@ namespace Квест
 
 
             
-            FormTravel form2 = new FormTravel();
+            FormLocation form2 = new FormLocation();
             this.Hide();
             form2.ShowDialog();
             this.Close();

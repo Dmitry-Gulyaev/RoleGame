@@ -59,7 +59,7 @@ namespace Квест
                 newbtn1.Click += new EventHandler(newbtn1_Click);
                 Controls.Add(newbtn1);
 
-                if (Contr.SecretFarmCatacombs == 1)
+                if (Statistics.SecretFarmCatacombs == 1)
                 {
                     Button Secret = new Button();
                     Secret.Location = new Point(160, 200);
@@ -169,7 +169,7 @@ namespace Квест
 
         }
 
-        private void Farm1_Click(object sender, EventArgs e)//Ферма
+        private void Farm1_Click(object sender, EventArgs e)//Ферма левый ангар
         {
             if (Contr.Farm == 0)
             {
@@ -189,11 +189,17 @@ namespace Квест
             }
             if (Contr.Farm == 2)
             {
-                label.Text = "Сейчас ферма перепала во временное владение к бандитам.";
+                label.Text = "Сейчас ферма перепала во временное владение к сталкерам.";
+
+                button1.Visible = true;
+                button1.Size = new Size(150, 50);
+                button1.Text = "Поговорить со сталкерами";
+                button1.Click += new EventHandler(button1_Click);
+                Controls.Add(button1);
             }
 
         }
-        private void Farm2_Click(object sender, EventArgs e)//Ферма
+        private void Farm2_Click(object sender, EventArgs e)//Ферма правый ангар
         {
             if (Contr.Farm == 0)
             {
@@ -202,18 +208,30 @@ namespace Квест
             }
             if (Contr.Farm == 1)
             {
-                label.Text = "Сейчас ферма перепала во временное владение к бандитам.";
+                label.Text = "Сейчас ферма перепала во временное владение к бандитам.Немного побродив, ты нашел их главного.";
+
+                button1.Visible = true;
+                button1.Size = new Size(150, 50);
+                button1.Text = "Поговорить с главарем бандитов";
+                button1.Click += new EventHandler(button1_Click);
+                Controls.Add(button1);
             }
             if (Contr.Farm == 2)
             {
-                label.Text = "Сейчас ферма перепала во временное владение к бандитам.";
+                label.Text = "Сейчас ферма перепала во временное владение к сталкерам.";
+
+                button1.Visible = true;
+                button1.Size = new Size(150, 50);
+                button1.Text = "Поговорить со сталкерами";
+                button1.Click += new EventHandler(button1_Click);
+                Controls.Add(button1);
             }
         }
         private void Farm3_Click(object sender, EventArgs e)//Ферма
         {
             if (Contr.Farm == 0)
             {
-                if (Contr.SecretFarmCatacombs == 1)
+                if (Statistics.SecretFarmCatacombs == 1)
                 {
                     Button Secret = new Button();
                     Secret.Location = new Point(160, 200);
@@ -228,18 +246,24 @@ namespace Квест
                 if (a == 9)
                 {
                     label.Text = "В поисках чего-нибудь интересного ты случайно натыкаешься на какой-то люк. Кхм...Надо его приметить.";
-                    Contr.SecretFarmCatacombs = 1;
+                    Statistics.SecretFarmCatacombs = 1;
                 }
                 else
                     label.Text = "Сейчас Ферма пустует и ничего интересного найти на ней не предоставляется возможным.";
             }
             if (Contr.Farm == 1)
             {
-                label.Text = "Сейчас ферма перепала во временное владение к бандитам.";
+                label.Text = "Сейчас ферма перепала во временное владение к бандитам. Окинув местность своим взором, \nты приметил выгодные места для нападения. Сумасшедшая идея, не правда ли? ";
+
+                button1.Visible = true;
+                button1.Size = new Size(150, 50);
+                button1.Text = "Напасть на бандитов";
+                button1.Click += new EventHandler(button1_Click);
+                Controls.Add(button1);
             }
             if (Contr.Farm == 2)
             {
-                label.Text = "Сейчас ферма перепала во временное владение к бандитам.";
+                label.Text = "Сейчас ферма перепала во временное владение к сталкерам.";
             }
         }
 

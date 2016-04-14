@@ -17,7 +17,7 @@ namespace Квест
             LabelHeal.Text = Globals.Heal.ToString();
             LabelLevel.Text = Globals.Level.ToString();
             LabelMoney.Text = Globals.Money.ToString();
-
+            id.Monster =  0;
         }
 
         private void FormTravel_Load(object sender, EventArgs e)
@@ -31,6 +31,17 @@ namespace Квест
                 Location0.Text = "Деревня Новичков";
                 Location0.Click += new EventHandler(Location0_Click);
                 Controls.Add(Location0);
+                if (id.Location == 0)
+                {
+                    Label text = new Label();
+                    text.Location = new Point(70, 55);
+                    text.Size = new Size(90, 20);
+                    text.Font = new Font("Buxton Sketch", 10F, System.Drawing.FontStyle.Bold);
+                    text.ForeColor = Color.Red;
+                    text.Text = "Ты здесь ➤";
+                    Controls.Add(text);
+
+                }
 
                 Button Location1 = new Button();
                 Location1.Location = new Point(150, 75);
@@ -38,6 +49,17 @@ namespace Квест
                 Location1.Text = "Ферма";
                 Location1.Click += new EventHandler(Location1_Click);
                 Controls.Add(Location1);
+                if (id.Location == 1)
+                {
+                    Label text = new Label();
+                    text.Location = new Point(70, 80);
+                    text.Size = new Size(90, 20);
+                    text.Font = new Font("Buxton Sketch", 10F, System.Drawing.FontStyle.Bold);
+                    text.ForeColor = Color.Red;
+                    text.Text = "Ты здесь ➤";
+                    Controls.Add(text);
+
+                }
 
 
                 Button Location2 = new Button();
@@ -46,6 +68,17 @@ namespace Квест
                 Location2.Text = "АТП";
                 Location2.Click += new EventHandler(Location2_Click);
                 Controls.Add(Location2);
+                if (id.Location == 2)
+                {
+                    Label text = new Label();
+                    text.Location = new Point(70, 105);
+                    text.Size = new Size(90, 20);
+                    text.Font = new Font("Buxton Sketch", 10F, System.Drawing.FontStyle.Bold);
+                    text.ForeColor = Color.Red;
+                    text.Text = "Ты здесь ➤";
+                    Controls.Add(text);
+
+                }
 
                 Button Location3 = new Button();
                 Location3.Location = new Point(150, 125);
@@ -53,6 +86,17 @@ namespace Квест
                 Location3.Text = "НИИ Агропром";
                 Location3.Click += new EventHandler(Location3_Click);
                 Controls.Add(Location3);
+                if (id.Location == 3)
+                {
+                    Label text = new Label();
+                    text.Location = new Point(70, 130);
+                    text.Size = new Size(90, 20);
+                    text.Font = new Font("Buxton Sketch", 10F, System.Drawing.FontStyle.Bold);
+                    text.ForeColor = Color.Red;
+                    text.Text = "Ты здесь ➤";
+                    Controls.Add(text);
+
+                }
 
                 Button Location4 = new Button();
                 Location4.Location = new Point(150, 150);
@@ -60,6 +104,17 @@ namespace Квест
                 Location4.Text = "Темная Долина";
                 Location4.Click += new EventHandler(Location4_Click);
                 Controls.Add(Location4);
+                if (id.Location == 4)
+                {
+                    Label text = new Label();
+                    text.Location = new Point(70, 155);
+                    text.Size = new Size(90, 20);
+                    text.Font = new Font("Buxton Sketch", 10F, System.Drawing.FontStyle.Bold);
+                    text.ForeColor = Color.Red;
+                    text.Text = "Ты здесь ➤";
+                    Controls.Add(text);
+
+                }
             }
 
         }
@@ -77,12 +132,13 @@ namespace Квест
                 int attack = rand.Next(1, 5);
                 if (attack == 3)
                 {
+                    Random rand1 = new Random();
+                    id.Monster = rand1.Next(1, 5);
                     FormSelectGun form2 = new FormSelectGun();
                     this.Hide();
                     form2.ShowDialog();
                     this.Close();
-                    Random rand1 = new Random();
-                    id.Monster = rand1.Next(1, 10);
+                    
                 }
                 else
                 {
@@ -90,7 +146,7 @@ namespace Квест
                     FormVillage form2 = new FormVillage();
                     this.Hide();
                     form2.ShowDialog();
-                    this.Show();
+                    this.Close();
                 }
             }
             if (id.Location !=0 && id.Location !=1)
@@ -117,7 +173,7 @@ namespace Квест
                 if (attack == 3)
                 {
                     Random rand1 = new Random();
-                    id.Monster = rand1.Next(1, 10);
+                    id.Monster = rand1.Next(1, 5);
                     id.Location = 1;
                     FormSelectGun form2 = new FormSelectGun();
                     this.Hide();
@@ -131,7 +187,7 @@ namespace Квест
                     FormLocation form2 = new FormLocation();
                     this.Hide();
                     form2.ShowDialog();
-                    this.Show();
+                    this.Close();
                 }
             }
             
@@ -156,7 +212,7 @@ namespace Квест
                 if (attack == 3)
                 {
                     Random rand1 = new Random();
-                    id.Monster = rand1.Next(1, 10);
+                    id.Monster = rand1.Next(1, 5);
                     id.Location = 2;
                     FormSelectGun form2 = new FormSelectGun();
                     this.Hide();
@@ -170,7 +226,7 @@ namespace Квест
                     FormLocation form2 = new FormLocation();
                     this.Hide();
                     form2.ShowDialog();
-                    this.Show();
+                    this.Close();
                 }
             }
 
@@ -193,7 +249,7 @@ namespace Квест
                 if (attack == 3)
                 {
                     Random rand1 = new Random();
-                    id.Monster = rand1.Next(1, 10);
+                    id.Monster = rand1.Next(1, 5);
                     id.Location = 3;
                     FormSelectGun form2 = new FormSelectGun();
                     this.Hide();
@@ -207,7 +263,7 @@ namespace Квест
                     FormLocation form2 = new FormLocation();
                     this.Hide();
                     form2.ShowDialog();
-                    this.Show();
+                    this.Close();
                 }
             }
         }
@@ -229,7 +285,7 @@ namespace Квест
                 if (attack == 3)
                 {
                     Random rand1 = new Random();
-                    id.Monster = rand1.Next(1, 10);
+                    id.Monster = rand1.Next(1, 5);
                     id.Location = 4;
                     FormSelectGun form2 = new FormSelectGun();
                     this.Hide();
@@ -243,7 +299,7 @@ namespace Квест
                     FormLocation form2 = new FormLocation();
                     this.Hide();
                     form2.ShowDialog();
-                    this.Show();
+                    this.Close();
                 }
             }
 

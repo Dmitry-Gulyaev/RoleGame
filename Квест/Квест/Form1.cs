@@ -40,7 +40,7 @@ namespace Квест
         {
          
             Random rand = new Random();
-            Contr.Farm = rand.Next(0, 2);
+            Contr.Farm = rand.Next(0, 3);
         
         }
     }

@@ -65,8 +65,28 @@ namespace Квест
             sw.WriteLine(st);
             st = MedResource.antidote.ToString();
             sw.WriteLine(st);
-            //====статисика
+            //====статистика
+            st = Statistics.KillFlech.ToString();
+            sw.WriteLine(st);
+            st = Statistics.KillBoar .ToString();
+            sw.WriteLine(st);
             st = Statistics.KillDogs.ToString();
+            sw.WriteLine(st);
+            st = Statistics.KillSnork.ToString();
+            sw.WriteLine(st);
+            st = Statistics.KillLeech.ToString();
+            sw.WriteLine(st);
+            st = Statistics.KillPoltergeist.ToString();
+            sw.WriteLine(st);
+            st = Statistics.KillController.ToString();
+            sw.WriteLine(st);
+            st = Statistics.KillByurer.ToString();
+            sw.WriteLine(st);
+            st = Statistics.KillChimera.ToString();
+            sw.WriteLine(st);
+            st = Statistics.KillGiant.ToString();
+            sw.WriteLine(st);
+            st = Statistics.SecretFarmCatacombs.ToString();
             sw.WriteLine(st);
             sw.Close();
         }
@@ -123,8 +143,28 @@ namespace Квест
             MedResource.antidote = System.Int32.Parse(st);
             st = sr.ReadLine();
             //======cтатистика
+            st = sr.ReadLine();
+            Statistics.KillFlech = System.Int32.Parse(st);
+            st = sr.ReadLine();
+            Statistics.KillBoar = System.Int32.Parse(st);
+            st = sr.ReadLine();
             Statistics.KillDogs = System.Int32.Parse(st);
-            
+            st = sr.ReadLine();
+            Statistics.KillSnork = System.Int32.Parse(st);
+            st = sr.ReadLine();
+            Statistics.KillLeech = System.Int32.Parse(st);
+            st = sr.ReadLine();
+            Statistics.KillPoltergeist = System.Int32.Parse(st);
+            st = sr.ReadLine();
+            Statistics.KillController = System.Int32.Parse(st);
+            st = sr.ReadLine();
+            Statistics.KillByurer = System.Int32.Parse(st);
+            st = sr.ReadLine();
+            Statistics.KillChimera = System.Int32.Parse(st);
+            st = sr.ReadLine();
+            Statistics.KillGiant = System.Int32.Parse(st);
+            st = sr.ReadLine();
+            Statistics.SecretFarmCatacombs = System.Int32.Parse(st);
             sr.Close();
         }
         public void control()
@@ -181,6 +221,8 @@ namespace Квест
         public static int KillByurer;
         public static int KillChimera;
         public static int KillGiant;
+        public static int SecretFarmCatacombs = 0; // переменная отвечающая за найденные секретные катакомбы на ферме
+
         }
     public static class id
     {
@@ -196,8 +238,7 @@ namespace Квест
     public static class Contr // отвечает за генерацию юнитов, под контролем которых находятся динамические локации.
     {
         public static int Farm; // если 0-пусто, 1- бандиты, 2-сталкеры.
-        public static int SecretFarmCatacombs = 0; // переменная отвечающая за найденные секретные катакомбы на ферме
-
+        
     }
 
                 
