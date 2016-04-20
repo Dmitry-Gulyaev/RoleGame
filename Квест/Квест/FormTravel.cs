@@ -130,7 +130,7 @@ namespace Квест
             {
                 MessageBox.Show("Ты уже в Деревне новичков.");
             }
-
+             
             if (id.Location == 1)
             {
                 Random rand = new Random();
@@ -154,7 +154,7 @@ namespace Квест
                     this.Close();
                 }
             }
-            if (id.Location !=0 && id.Location !=1)
+            else if (id.Location !=0 && id.Location !=1)
             {
                 MessageBox.Show("Ты слишком далеко от Деревни новичков, а телепорт пока не придумали. \nВ Деревню Новичков можно попасть из локации «Ферма»");
             }
@@ -165,7 +165,7 @@ namespace Квест
             {
                 MessageBox.Show("Ты уже на Ферме");
             }
-            if (id.Location != 0 && id.Location != 2)
+            else if (id.Location != 0 && id.Location != 2)
             {
                 MessageBox.Show("Ты слишком далеко от Фермы, а телепорт пока не придумали. \nВ На Ферму можно попасть из локаций «Деревня Новичков» и «АТП»");
             }
@@ -204,7 +204,7 @@ namespace Квест
             {
                 MessageBox.Show("Ты уже на АТП");
             }
-            if (id.Location != 1 && id.Location != 3)
+            else if (id.Location != 1 && id.Location != 3)
             {
                 MessageBox.Show("Ты слишком далеко от АТП, а телепорт пока не придумали. \nВ На АТП можно попасть из локаций «Ферма» и «НИИ Агропром»");
             }
@@ -242,7 +242,7 @@ namespace Квест
             {
                 MessageBox.Show("Ты уже на НИИ Агропром");
             }
-            if (id.Location != 2 && id.Location != 4)
+            else if (id.Location != 2 && id.Location != 4)
             {
                 MessageBox.Show("Ты слишком далеко от НИИ Агропром, а телепорт пока не придумали. \nВ На НИИ Агропром можно попасть из локаций «АТП» и «Темная Долина»");
             }
@@ -278,7 +278,7 @@ namespace Квест
             {
                 MessageBox.Show("Ты уже на НИИ Агропром");
             }
-            if (id.Location != 3)
+            else if (id.Location != 3)
             {
                 MessageBox.Show("Ты слишком далеко от Темной Долины, а телепорт пока не придумали. \nВ  Вемную Долину можно попасть из локации «НИИ Агропром»");
             }
