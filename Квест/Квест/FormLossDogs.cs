@@ -19,6 +19,11 @@ namespace Квест
 
         private void FormLossDogs_Load(object sender, EventArgs e)
         {
+            if (Globals.Points > 100)
+            {
+                Globals.Level += 1;
+                Globals.Points = 0;
+            }
             LabelHeal.Text = Globals.Heal.ToString();
             LabelLevel.Text = Globals.Level.ToString();
             LabelMoney.Text = Globals.Money.ToString();

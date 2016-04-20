@@ -14,6 +14,11 @@ namespace Квест
         public FormShopMed()
         {
             InitializeComponent();
+            if (Globals.Points > 100)
+            {
+                Globals.Level += 1;
+                Globals.Points = 0;
+            }
             LabelHeal.Text = Globals.Heal.ToString();
             LabelLevel.Text = Globals.Level.ToString();
             LabelMoney.Text = Globals.Money.ToString();

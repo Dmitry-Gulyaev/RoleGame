@@ -94,6 +94,11 @@ namespace Квест
 
         private void FormVictoryDogs_Load(object sender, EventArgs e)
         {
+            if (Globals.Points > 100)
+            {
+                Globals.Level += 1;
+                Globals.Points = 0;
+            }
             label1.BackColor = Color.Transparent;
 
             LabelHeal.Text = Globals.Heal.ToString();

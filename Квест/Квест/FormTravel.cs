@@ -14,6 +14,11 @@ namespace Квест
         public FormTravel()
         {
             InitializeComponent();
+            if (Globals.Points > 100)
+            {
+                Globals.Level += 1;
+                Globals.Points = 0;
+            }
             LabelHeal.Text = Globals.Heal.ToString();
             LabelLevel.Text = Globals.Level.ToString();
             LabelMoney.Text = Globals.Money.ToString();
@@ -133,7 +138,7 @@ namespace Квест
                 if (attack == 3)
                 {
                     Random rand1 = new Random();
-                    id.Monster = rand1.Next(1, 5);
+                    id.Monster = rand1.Next(1, 10);
                     FormSelectGun form2 = new FormSelectGun();
                     this.Hide();
                     form2.ShowDialog();
@@ -173,7 +178,7 @@ namespace Квест
                 if (attack == 3)
                 {
                     Random rand1 = new Random();
-                    id.Monster = rand1.Next(1, 5);
+                    id.Monster = rand1.Next(1, 10);
                     id.Location = 1;
                     FormSelectGun form2 = new FormSelectGun();
                     this.Hide();
@@ -212,7 +217,7 @@ namespace Квест
                 if (attack == 3)
                 {
                     Random rand1 = new Random();
-                    id.Monster = rand1.Next(1, 5);
+                    id.Monster = rand1.Next(1, 10);
                     id.Location = 2;
                     FormSelectGun form2 = new FormSelectGun();
                     this.Hide();
@@ -249,7 +254,7 @@ namespace Квест
                 if (attack == 3)
                 {
                     Random rand1 = new Random();
-                    id.Monster = rand1.Next(1, 5);
+                    id.Monster = rand1.Next(1, 10);
                     id.Location = 3;
                     FormSelectGun form2 = new FormSelectGun();
                     this.Hide();
@@ -285,7 +290,7 @@ namespace Квест
                 if (attack == 3)
                 {
                     Random rand1 = new Random();
-                    id.Monster = rand1.Next(1, 5);
+                    id.Monster = rand1.Next(1, 10);
                     id.Location = 4;
                     FormSelectGun form2 = new FormSelectGun();
                     this.Hide();
