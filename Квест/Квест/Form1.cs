@@ -21,12 +21,25 @@ namespace Квест
 
         private void button1_Click(object sender, EventArgs e)
         {
+                       
             Globals read = new Globals();
             read.Reader();
-            FormVillage form2 = new FormVillage();
-            this.Hide();
-            form2.ShowDialog();
-            this.Close();
+
+            if (Statistics.Step == 0)
+            {
+                IdDialog.PeopleDialog = "Шрам1";
+                FormDialog form2 = new FormDialog();
+                this.Hide();
+                form2.ShowDialog();
+                this.Close();
+            }
+            else
+            {
+                FormVillage form3 = new FormVillage();
+                this.Hide();
+                form3.ShowDialog();
+                this.Close();
+            }
             
             
         }
@@ -41,6 +54,8 @@ namespace Квест
          
             Random rand = new Random();
             Contr.Farm = rand.Next(0, 3);
+            Random rand1 = new Random();
+            Contr.KPP = rand.Next(1, 3);
         
         }
     }
