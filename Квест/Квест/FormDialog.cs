@@ -18,6 +18,8 @@ namespace Квест
             LabelLevel.Text = Globals.Level.ToString();
             LabelMoney.Text = Globals.Money.ToString();
 
+
+
         }
 
         private void SaveButton_Click(object sender, EventArgs e)
@@ -50,23 +52,22 @@ namespace Квест
 
             this.BackgroundImage = Image.FromFile("Шрам.jpg", false);
             //this.Size = new Size(500, 432);
-            Label dialog = new Label();
-            dialog.Location = new Point (25,225);
-            dialog.Size = new Size (500,80);
+         
+            
             dialog.BackColor = Color.Transparent;
             dialog.ForeColor = Color.White;
-            dialog.Text = "Ему удалось нанять двоих профессиональных сталкеров для помощи с освоением Андрея в Зоне, а также для помощи поиска остальных ингредиентов Оазисонола. \nШрам и Клин дали Андрею прозвище Лис и теперь их путешествие по Большой земле подошло к концу. После непродолжительного похода от Центра Изучения ЧЗО впереди показалась колючая проволока и бетонные заборы - периметр Зоны. \nВам предстояло пройти через блокпост, который тщательно охранялся военными. \nШрам: - Так, нам нужно либо сразу разделиться и в рассыпную, ибо идти толпой - опасно, либо подойти поближе и разведать обстановку. Если на дежурстве сегодня капитан Абрамов, то можем немного заплатить ему и пройти спокойно. \nЕсли Устименко, то разговаривать с ним и смысла нет. ";
+            dialog.Text = "Ему удалось нанять двоих профессиональных сталкеров для помощи с освоением Андрея в Зоне, \nа также для помощи поиска остальных ингредиентов Оазисонола. \nШрам и Клин дали Андрею прозвище Лис и теперь их путешествие по Большой земле подошло к концу. \nПосле непродолжительного похода от Центра Изучения ЧЗО впереди показалась колючая проволока \nи бетонные заборы - периметр Зоны. \nВам предстояло пройти через блокпост, который тщательно охранялся военными. \nШрам: - Так, нам нужно либо сразу разделиться и в рассыпную, ибо идти толпой - опасно, \nлибо подойти поближе и разведать обстановку. Если на дежурстве сегодня капитан Абрамов, \nто можем немного заплатить ему и пройти спокойно. \nЕсли Устименко, то разговаривать с ним и смысла нет. ";
             Controls.Add(dialog);
 
-            Button Answer1 = new Button();
-            Answer1.Location = new Point(25, 320);
+            
+            Answer1.Location = new Point(25, 370);
             Answer1.Size = new Size(500, 25); 
             Answer1.Text = "Подойдем поближе и посмотрим кто дежурный.";
             Answer1.Click += new EventHandler(Answer1_Click);
             Controls.Add(Answer1);
 
-            Button Answer2 = new Button();
-            Answer2.Location = new Point(25, 350);
+          
+            Answer2.Location = new Point(25, 400);
             Answer2.Size = new Size(500, 25);
             Answer2.Text = "Давайте разделимся. Встретимся в условном месте.";
             Answer2.Click += new EventHandler(Answer2_Click);
@@ -76,12 +77,59 @@ namespace Квест
 
             private void Answer1_Click(object sender, EventArgs e)
     {
+            Random rand = new Random();
+            int a = rand.Next(1,3);
+                if (a == 1)
+                {
+                    if (Contr.KPP == 1)
+                    {
+                        dialog.Text = "Вам удалось подойти поближе.  На дежурстве был капитан Абрамов.";
+                        Controls.Add(dialog);
+                        Answer1.Text = "Поговорить с Капитаном.";
+                        Answer1.Click +=new EventHandler (DialogAbramov_Click);
+                        Answer2.Text = "Попробовать проникнуть незаметно";
+                        Answer2.Click += new EventHandler(Penetrate_Click);
+                    }
+                    if (Contr.KPP == 2)
+                    {
+                        dialog.Text = "Вам удалось подойти поближе.  На дежурстве был капитан Устименко.";
+                        Controls.Add(dialog);
+                        Answer1.Text = "Попробовать проникнуть незаметно";
+                        Answer1.Click += new EventHandler(Penetrate_Click);
+                        Answer2.Visible = false;
+
+                    }
+                }
+                if (a == 2)
+                {
+                    dialog.Text = "Вам не удалось подойти ближе и вас заметили! \nС блокпоста по вам открыли пулеметный огонь и все вы разбежались в разные стороны.\nЛис залег в кустах, укрывшись за огромным камнем. Он слышал, как в нескольких метрах рыскали \nвоенные.Это значит, что огонь из пулеметов не откроют, потому что есть риск задеть своих.\nБежать! Сейчас или никогда!";
+                    Controls.Add(dialog);
+
+                    Answer1.Text = "Бежать!!!";
+                    Answer1.Click += new EventHandler(Escape_Click);
+                    Answer2.Visible = false;
+                }
+
 
     }
             private void Answer2_Click(object sender, EventArgs e)
-     {
+             {
 
-     }
+             }
+
+            private void DialogAbramov_Click(object sender, EventArgs e)
+            {
+                dialog.Text = "((Разговор с Абрамовым))";
+            }
+            private void Penetrate_Click(object sender, EventArgs e) // попробовать пройти незаметно
+            {
+                dialog.Text = "((Проход))";
+            }
+            private void Escape_Click(object sender, EventArgs e) // побег
+            {
+                dialog.Text = "((побег))";
+            }
+
 
     }
 
