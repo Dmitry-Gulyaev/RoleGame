@@ -770,7 +770,7 @@ namespace Квест
                     }
 
                 }
-                //==============АH 94===============
+                // ==============АH 94===============
                 if (id.SelGun == 6)
                 {
                     Random rand = new Random();
@@ -2667,19 +2667,16 @@ namespace Квест
 
                             if (i == Victory)
                             {
-
                                 Shot.Name = "VictoryButton";
                                 Shot.Click += new EventHandler(VictoryShot_Click);
                             }
                             else
                             {
-
                                 Shot.Name = "NoVictoryButton";
                                 Shot.Click += new EventHandler(NoVictoryShot_Click);
                             }
                         }
                     }
-
                 }
                 //==============ТО3 34===============
                 if (id.SelGun == 7)
@@ -2707,19 +2704,16 @@ namespace Квест
 
                             if (i == Victory)
                             {
-
                                 Shot.Name = "VictoryButton";
                                 Shot.Click += new EventHandler(VictoryShot_Click);
                             }
                             else
                             {
-
                                 Shot.Name = "NoVictoryButton";
                                 Shot.Click += new EventHandler(NoVictoryShot_Click);
                             }
                         }
                     }
-
                 }
                 //==============Ружье===============
                 if (id.SelGun == 8)
@@ -2747,19 +2741,16 @@ namespace Квест
 
                             if (i == Victory)
                             {
-
                                 Shot.Name = "VictoryButton";
                                 Shot.Click += new EventHandler(VictoryShot_Click);
                             }
                             else
                             {
-
                                 Shot.Name = "NoVictoryButton";
                                 Shot.Click += new EventHandler(NoVictoryShot_Click);
                             }
                         }
                     }
-
                 }
                 //==============Сайга===============
                 if (id.SelGun == 9)
@@ -2787,19 +2778,16 @@ namespace Квест
 
                             if (i == Victory)
                             {
-
                                 Shot.Name = "VictoryButton";
                                 Shot.Click += new EventHandler(VictoryShot_Click);
                             }
                             else
                             {
-
                                 Shot.Name = "NoVictoryButton";
                                 Shot.Click += new EventHandler(NoVictoryShot_Click);
                             }
                         }
                     }
-
                 }
                 //==============СВД===============
                 if (id.SelGun == 10)
@@ -2824,18 +2812,15 @@ namespace Квест
 
                         if (i == Victory)
                         {
-
                             Shot.Name = "VictoryButton";
                             Shot.Click += new EventHandler(VictoryShot_Click);
                         }
                         else
                         {
-
                             Shot.Name = "NoVictoryButton";
                             Shot.Click += new EventHandler(NoVictoryShot_Click);
                         }
                     }
-
                 }
                 //==============Винторез===============
                 if (id.SelGun == 11)
@@ -2860,23 +2845,19 @@ namespace Квест
 
                         if (i == Victory)
                         {
-
                             Shot.Name = "VictoryButton";
                             Shot.Click += new EventHandler(VictoryShot_Click);
                         }
                         else
                         {
-
                             Shot.Name = "NoVictoryButton";
                             Shot.Click += new EventHandler(NoVictoryShot_Click);
                         }
                     }
-
                 }
                 //=============Гаус Пушка==========
                 if (id.SelGun == 12)
                 {
-
                     Random rand = new Random();
                     int Victory = rand.Next(0, menace);
                     for (int i = 0; i < menace; i++)
@@ -2900,7 +2881,6 @@ namespace Квест
                             Shot.Click += new EventHandler(NoVictoryShot_Click);
                         }
                     }
-
                 }
             }
             if (id.Monster == 7) //  Бой  с контролером
@@ -2911,12 +2891,8 @@ namespace Квест
                     menace = 5;
                 if (Globals.Level > 5)
                 {
-                    menace = 3;
-                    
+                    menace = 3;                    
                 }
-
-
-
                 //=============Пистолет Макарова==========
                 if (id.SelGun == 1)
                 {
@@ -2931,8 +2907,6 @@ namespace Квест
                         Shot.Text = "+";
                         Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                         this.Controls.Add(Shot);
-
-
                         if (i == Victory)
                         {
                             Shot.Name = "VictoryButton";
@@ -2944,9 +2918,7 @@ namespace Квест
                             Shot.Click += new EventHandler(NoVictoryShot_Click);
                         }
                     }
-
                 }
-
                 //==================Beretta===================
                 if (id.SelGun == 2)
                 {
@@ -2970,8 +2942,6 @@ namespace Квест
                             Shot.Text = "+";
                             Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                             this.Controls.Add(Shot);
-
-
                             if (i == Victory)
                             {
                                 Shot.Name = "VictoryButton";
@@ -2984,7 +2954,6 @@ namespace Квест
                             }
                         }
                     }
-
                 }
                 //==================Desert Eagle====================
                 if (id.SelGun == 3)
@@ -3009,8 +2978,6 @@ namespace Квест
                             Shot.Text = "+";
                             Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                             this.Controls.Add(Shot);
-
-
                             if (i == Victory)
                             {
                                 Shot.Name = "VictoryButton";
@@ -3023,7 +2990,6 @@ namespace Квест
                             }
                         }
                     }
-
                 }
                 //==============АКС - 74У===============
                 if (id.SelGun == 4)
@@ -3048,23 +3014,18 @@ namespace Квест
                                 Shot.Text = "+";
                                 Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                                 this.Controls.Add(Shot);
-
-
                                 if (i == Victory)
                                 {
-
                                     Shot.Name = "VictoryButton";
                                     Shot.Click += new EventHandler(VictoryShot_Click);
                                 }
                                 else
                                 {
-
                                     Shot.Name = "NoVictoryButton";
                                     Shot.Click += new EventHandler(NoVictoryShot_Click);
                                 }
                             }
                         }
-
                 }
                 //==============АК - 105===============
                 if (id.SelGun == 5)
@@ -3089,23 +3050,18 @@ namespace Квест
                             Shot.Text = "+";
                             Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                             this.Controls.Add(Shot);
-
-
                             if (i == Victory)
                             {
-
                                 Shot.Name = "VictoryButton";
                                 Shot.Click += new EventHandler(VictoryShot_Click);
                             }
                             else
                             {
-
                                 Shot.Name = "NoVictoryButton";
                                 Shot.Click += new EventHandler(NoVictoryShot_Click);
                             }
                         }
                     }
-
                 }
                 //==============АH 94===============
                 if (id.SelGun == 6)
@@ -3130,22 +3086,18 @@ namespace Квест
                             Shot.Text = "+";
                             Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                             this.Controls.Add(Shot);
-
                             if (i == Victory)
                             {
-
                                 Shot.Name = "VictoryButton";
                                 Shot.Click += new EventHandler(VictoryShot_Click);
                             }
                             else
                             {
-
                                 Shot.Name = "NoVictoryButton";
                                 Shot.Click += new EventHandler(NoVictoryShot_Click);
                             }
                         }
                     }
-
                 }
                 //==============ТО3 34===============
                 if (id.SelGun == 7)
@@ -3170,22 +3122,18 @@ namespace Квест
                             Shot.Text = "+";
                             Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                             this.Controls.Add(Shot);
-
                             if (i == Victory)
                             {
-
                                 Shot.Name = "VictoryButton";
                                 Shot.Click += new EventHandler(VictoryShot_Click);
                             }
                             else
                             {
-
                                 Shot.Name = "NoVictoryButton";
                                 Shot.Click += new EventHandler(NoVictoryShot_Click);
                             }
                         }
                     }
-
                 }
                 //==============Ружье===============
                 if (id.SelGun == 8)
@@ -3210,22 +3158,18 @@ namespace Квест
                             Shot.Text = "+";
                             Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                             this.Controls.Add(Shot);
-
                             if (i == Victory)
                             {
-
                                 Shot.Name = "VictoryButton";
                                 Shot.Click += new EventHandler(VictoryShot_Click);
                             }
                             else
                             {
-
                                 Shot.Name = "NoVictoryButton";
                                 Shot.Click += new EventHandler(NoVictoryShot_Click);
                             }
                         }
                     }
-
                 }
                 //==============Сайга===============
                 if (id.SelGun == 9)
@@ -3250,22 +3194,18 @@ namespace Квест
                             Shot.Text = "+";
                             Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                             this.Controls.Add(Shot);
-
                             if (i == Victory)
                             {
-
                                 Shot.Name = "VictoryButton";
                                 Shot.Click += new EventHandler(VictoryShot_Click);
                             }
                             else
                             {
-
                                 Shot.Name = "NoVictoryButton";
                                 Shot.Click += new EventHandler(NoVictoryShot_Click);
                             }
                         }
                     }
-
                 }
                 //==============СВД===============
                 if (id.SelGun == 10)
@@ -3277,7 +3217,6 @@ namespace Квест
                     }
                     Random rand = new Random();
                     int Victory = rand.Next(0, hit);// Для функции в 2 раза больше
-
                     for (int i = 0; i < hit; i++)
                     {
                         Button Shot = new Button();
@@ -3287,30 +3226,24 @@ namespace Квест
                         Shot.Text = "+";
                         Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                         this.Controls.Add(Shot);
-
                         if (i == Victory)
                         {
-
                             Shot.Name = "VictoryButton";
                             Shot.Click += new EventHandler(VictoryShot_Click);
                         }
                         else
                         {
-
                             Shot.Name = "NoVictoryButton";
                             Shot.Click += new EventHandler(NoVictoryShot_Click);
                         }
                     }
-
                 }
                 //==============Винторез===============
                 if (id.SelGun == 11)
                 {
                     int hit = menace / 3;
-                    if (menace % 3 < 0)
-                    {
-                        hit = menace + 1;
-                    }
+                    if (menace % 3 < 0)                 
+                        hit = menace + 1;                    
                     Random rand = new Random();
                     int Victory = rand.Next(0, hit);// Для функции в 2 раза больше
 
@@ -3323,26 +3256,21 @@ namespace Квест
                         Shot.Text = "+";
                         Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                         this.Controls.Add(Shot);
-
                         if (i == Victory)
                         {
-
                             Shot.Name = "VictoryButton";
                             Shot.Click += new EventHandler(VictoryShot_Click);
                         }
                         else
                         {
-
                             Shot.Name = "NoVictoryButton";
                             Shot.Click += new EventHandler(NoVictoryShot_Click);
                         }
                     }
-
                 }
                 //=============Гаус Пушка==========
                 if (id.SelGun == 12)
                 {
-
                     Random rand = new Random();
                     int Victory = rand.Next(0, menace);
                     for (int i = 0; i < menace; i++)
@@ -3354,7 +3282,6 @@ namespace Квест
                         Shot.Text = "+";
                         Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                         this.Controls.Add(Shot);
-
                         if (i == Victory)
                         {
                             Shot.Name = "VictoryButton";
@@ -3366,7 +3293,6 @@ namespace Квест
                             Shot.Click += new EventHandler(NoVictoryShot_Click);
                         }
                     }
-
                 }
             }
             if (id.Monster == 8) //  Бой  с бюрером
@@ -3377,12 +3303,8 @@ namespace Квест
                     menace = 5;
                 if (Globals.Level > 5)
                 {
-                    menace = 3;
-                    
+                    menace = 3;                    
                 }
-
-
-
                 //=============Пистолет Макарова==========
                 if (id.SelGun == 1)
                 {
@@ -3397,8 +3319,6 @@ namespace Квест
                         Shot.Text = "+";
                         Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                         this.Controls.Add(Shot);
-
-
                         if (i == Victory)
                         {
                             Shot.Name = "VictoryButton";
@@ -3410,9 +3330,7 @@ namespace Квест
                             Shot.Click += new EventHandler(NoVictoryShot_Click);
                         }
                     }
-
                 }
-
                 //==================Beretta===================
                 if (id.SelGun == 2)
                 {
@@ -3450,7 +3368,6 @@ namespace Квест
                             }
                         }
                     }
-
                 }
                 //==================Desert Eagle====================
                 if (id.SelGun == 3)
@@ -3489,7 +3406,6 @@ namespace Квест
                             }
                         }
                     }
-
                 }
                 //==============АКС - 74У===============
                 if (id.SelGun == 4)
@@ -3518,19 +3434,16 @@ namespace Квест
 
                                 if (i == Victory)
                                 {
-
                                     Shot.Name = "VictoryButton";
                                     Shot.Click += new EventHandler(VictoryShot_Click);
                                 }
                                 else
                                 {
-
                                     Shot.Name = "NoVictoryButton";
                                     Shot.Click += new EventHandler(NoVictoryShot_Click);
                                 }
                             }
                         }
-
                 }
                 //==============АК - 105===============
                 if (id.SelGun == 5)
@@ -3555,23 +3468,18 @@ namespace Квест
                             Shot.Text = "+";
                             Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                             this.Controls.Add(Shot);
-
-
                             if (i == Victory)
                             {
-
                                 Shot.Name = "VictoryButton";
                                 Shot.Click += new EventHandler(VictoryShot_Click);
                             }
                             else
                             {
-
                                 Shot.Name = "NoVictoryButton";
                                 Shot.Click += new EventHandler(NoVictoryShot_Click);
                             }
                         }
                     }
-
                 }
                 //==============АH 94===============
                 if (id.SelGun == 6)
@@ -3599,19 +3507,16 @@ namespace Квест
 
                             if (i == Victory)
                             {
-
                                 Shot.Name = "VictoryButton";
                                 Shot.Click += new EventHandler(VictoryShot_Click);
                             }
                             else
                             {
-
                                 Shot.Name = "NoVictoryButton";
                                 Shot.Click += new EventHandler(NoVictoryShot_Click);
                             }
                         }
                     }
-
                 }
                 //==============ТО3 34===============
                 if (id.SelGun == 7)
@@ -3639,19 +3544,16 @@ namespace Квест
 
                             if (i == Victory)
                             {
-
                                 Shot.Name = "VictoryButton";
                                 Shot.Click += new EventHandler(VictoryShot_Click);
                             }
                             else
                             {
-
                                 Shot.Name = "NoVictoryButton";
                                 Shot.Click += new EventHandler(NoVictoryShot_Click);
                             }
                         }
                     }
-
                 }
                 //==============Ружье===============
                 if (id.SelGun == 8)
@@ -3676,22 +3578,18 @@ namespace Квест
                             Shot.Text = "+";
                             Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                             this.Controls.Add(Shot);
-
                             if (i == Victory)
                             {
-
                                 Shot.Name = "VictoryButton";
                                 Shot.Click += new EventHandler(VictoryShot_Click);
                             }
                             else
                             {
-
                                 Shot.Name = "NoVictoryButton";
                                 Shot.Click += new EventHandler(NoVictoryShot_Click);
                             }
                         }
                     }
-
                 }
                 //==============Сайга===============
                 if (id.SelGun == 9)
@@ -3716,22 +3614,18 @@ namespace Квест
                             Shot.Text = "+";
                             Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                             this.Controls.Add(Shot);
-
                             if (i == Victory)
                             {
-
                                 Shot.Name = "VictoryButton";
                                 Shot.Click += new EventHandler(VictoryShot_Click);
                             }
                             else
                             {
-
                                 Shot.Name = "NoVictoryButton";
                                 Shot.Click += new EventHandler(NoVictoryShot_Click);
                             }
                         }
                     }
-
                 }
                 //==============СВД===============
                 if (id.SelGun == 10)
@@ -3743,7 +3637,6 @@ namespace Квест
                     }
                     Random rand = new Random();
                     int Victory = rand.Next(0, hit);// Для функции в 2 раза больше
-
                     for (int i = 0; i < hit; i++)
                     {
                         Button Shot = new Button();
@@ -3753,21 +3646,17 @@ namespace Квест
                         Shot.Text = "+";
                         Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                         this.Controls.Add(Shot);
-
                         if (i == Victory)
                         {
-
                             Shot.Name = "VictoryButton";
                             Shot.Click += new EventHandler(VictoryShot_Click);
                         }
                         else
                         {
-
                             Shot.Name = "NoVictoryButton";
                             Shot.Click += new EventHandler(NoVictoryShot_Click);
                         }
                     }
-
                 }
                 //==============Винторез===============
                 if (id.SelGun == 11)
@@ -3779,7 +3668,6 @@ namespace Квест
                     }
                     Random rand = new Random();
                     int Victory = rand.Next(0, hit);// Для функции в 2 раза больше
-
                     for (int i = 0; i < hit; i++)
                     {
                         Button Shot = new Button();
@@ -3789,26 +3677,21 @@ namespace Квест
                         Shot.Text = "+";
                         Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                         this.Controls.Add(Shot);
-
                         if (i == Victory)
                         {
-
                             Shot.Name = "VictoryButton";
                             Shot.Click += new EventHandler(VictoryShot_Click);
                         }
                         else
                         {
-
                             Shot.Name = "NoVictoryButton";
                             Shot.Click += new EventHandler(NoVictoryShot_Click);
                         }
                     }
-
                 }
                 //=============Гаус Пушка==========
                 if (id.SelGun == 12)
                 {
-
                     Random rand = new Random();
                     int Victory = rand.Next(0, menace);
                     for (int i = 0; i < menace; i++)
@@ -3820,7 +3703,6 @@ namespace Квест
                         Shot.Text = "+";
                         Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                         this.Controls.Add(Shot);
-
                         if (i == Victory)
                         {
                             Shot.Name = "VictoryButton";
@@ -3832,7 +3714,6 @@ namespace Квест
                             Shot.Click += new EventHandler(NoVictoryShot_Click);
                         }
                     }
-
                 }
             }
             if (id.Monster == 9) //  Бой с химерой
@@ -3845,9 +3726,6 @@ namespace Квест
                 {
                     menace = 5;
                 }
-
-
-
                 //=============Пистолет Макарова==========
                 if (id.SelGun == 1)
                 {
@@ -3862,8 +3740,6 @@ namespace Квест
                         Shot.Text = "+";
                         Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                         this.Controls.Add(Shot);
-
-
                         if (i == Victory)
                         {
                             Shot.Name = "VictoryButton";
@@ -3875,9 +3751,7 @@ namespace Квест
                             Shot.Click += new EventHandler(NoVictoryShot_Click);
                         }
                     }
-
                 }
-
                 //==================Beretta===================
                 if (id.SelGun == 2)
                 {
@@ -3901,8 +3775,6 @@ namespace Квест
                             Shot.Text = "+";
                             Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                             this.Controls.Add(Shot);
-
-
                             if (i == Victory)
                             {
                                 Shot.Name = "VictoryButton";
@@ -3915,7 +3787,6 @@ namespace Квест
                             }
                         }
                     }
-
                 }
                 //==================Desert Eagle====================
                 if (id.SelGun == 3)
@@ -3940,8 +3811,6 @@ namespace Квест
                             Shot.Text = "+";
                             Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                             this.Controls.Add(Shot);
-
-
                             if (i == Victory)
                             {
                                 Shot.Name = "VictoryButton";
@@ -3954,7 +3823,6 @@ namespace Квест
                             }
                         }
                     }
-
                 }
                 //==============АКС - 74У===============
                 if (id.SelGun == 4)
@@ -3979,23 +3847,18 @@ namespace Квест
                                 Shot.Text = "+";
                                 Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                                 this.Controls.Add(Shot);
-
-
                                 if (i == Victory)
                                 {
-
                                     Shot.Name = "VictoryButton";
                                     Shot.Click += new EventHandler(VictoryShot_Click);
                                 }
                                 else
                                 {
-
                                     Shot.Name = "NoVictoryButton";
                                     Shot.Click += new EventHandler(NoVictoryShot_Click);
                                 }
                             }
                         }
-
                 }
                 //==============АК - 105===============
                 if (id.SelGun == 5)
@@ -4020,23 +3883,18 @@ namespace Квест
                             Shot.Text = "+";
                             Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                             this.Controls.Add(Shot);
-
-
                             if (i == Victory)
                             {
-
                                 Shot.Name = "VictoryButton";
                                 Shot.Click += new EventHandler(VictoryShot_Click);
                             }
                             else
                             {
-
                                 Shot.Name = "NoVictoryButton";
                                 Shot.Click += new EventHandler(NoVictoryShot_Click);
                             }
                         }
                     }
-
                 }
                 //==============АH 94===============
                 if (id.SelGun == 6)
@@ -4061,22 +3919,18 @@ namespace Квест
                             Shot.Text = "+";
                             Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                             this.Controls.Add(Shot);
-
                             if (i == Victory)
                             {
-
                                 Shot.Name = "VictoryButton";
                                 Shot.Click += new EventHandler(VictoryShot_Click);
                             }
                             else
                             {
-
                                 Shot.Name = "NoVictoryButton";
                                 Shot.Click += new EventHandler(NoVictoryShot_Click);
                             }
                         }
                     }
-
                 }
                 //==============ТО3 34===============
                 if (id.SelGun == 7)
@@ -4101,22 +3955,18 @@ namespace Квест
                             Shot.Text = "+";
                             Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                             this.Controls.Add(Shot);
-
                             if (i == Victory)
                             {
-
                                 Shot.Name = "VictoryButton";
                                 Shot.Click += new EventHandler(VictoryShot_Click);
                             }
                             else
                             {
-
                                 Shot.Name = "NoVictoryButton";
                                 Shot.Click += new EventHandler(NoVictoryShot_Click);
                             }
                         }
                     }
-
                 }
                 //==============Ружье===============
                 if (id.SelGun == 8)
@@ -4141,22 +3991,18 @@ namespace Квест
                             Shot.Text = "+";
                             Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                             this.Controls.Add(Shot);
-
                             if (i == Victory)
                             {
-
                                 Shot.Name = "VictoryButton";
                                 Shot.Click += new EventHandler(VictoryShot_Click);
                             }
                             else
                             {
-
                                 Shot.Name = "NoVictoryButton";
                                 Shot.Click += new EventHandler(NoVictoryShot_Click);
                             }
                         }
                     }
-
                 }
                 //==============Сайга===============
                 if (id.SelGun == 9)
@@ -4181,22 +4027,18 @@ namespace Квест
                             Shot.Text = "+";
                             Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                             this.Controls.Add(Shot);
-
                             if (i == Victory)
                             {
-
                                 Shot.Name = "VictoryButton";
                                 Shot.Click += new EventHandler(VictoryShot_Click);
                             }
                             else
                             {
-
                                 Shot.Name = "NoVictoryButton";
                                 Shot.Click += new EventHandler(NoVictoryShot_Click);
                             }
                         }
                     }
-
                 }
                 //==============СВД===============
                 if (id.SelGun == 10)
@@ -4208,7 +4050,6 @@ namespace Квест
                     }
                     Random rand = new Random();
                     int Victory = rand.Next(0, hit);// Для функции в 2 раза больше
-
                     for (int i = 0; i < hit; i++)
                     {
                         Button Shot = new Button();
@@ -4218,21 +4059,17 @@ namespace Квест
                         Shot.Text = "+";
                         Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                         this.Controls.Add(Shot);
-
                         if (i == Victory)
                         {
-
                             Shot.Name = "VictoryButton";
                             Shot.Click += new EventHandler(VictoryShot_Click);
                         }
                         else
                         {
-
                             Shot.Name = "NoVictoryButton";
                             Shot.Click += new EventHandler(NoVictoryShot_Click);
                         }
                     }
-
                 }
                 //==============Винторез===============
                 if (id.SelGun == 11)
@@ -4254,26 +4091,21 @@ namespace Квест
                         Shot.Text = "+";
                         Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                         this.Controls.Add(Shot);
-
                         if (i == Victory)
                         {
-
                             Shot.Name = "VictoryButton";
                             Shot.Click += new EventHandler(VictoryShot_Click);
                         }
                         else
                         {
-
                             Shot.Name = "NoVictoryButton";
                             Shot.Click += new EventHandler(NoVictoryShot_Click);
                         }
                     }
-
                 }
                 //=============Гаус Пушка==========
                 if (id.SelGun == 12)
                 {
-
                     Random rand = new Random();
                     int Victory = rand.Next(0, menace);
                     for (int i = 0; i < menace; i++)
@@ -4285,7 +4117,6 @@ namespace Квест
                         Shot.Text = "+";
                         Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                         this.Controls.Add(Shot);
-
                         if (i == Victory)
                         {
                             Shot.Name = "VictoryButton";
@@ -4297,7 +4128,6 @@ namespace Квест
                             Shot.Click += new EventHandler(NoVictoryShot_Click);
                         }
                     }
-
                 }
             }
             if (id.Monster == 10) //  Бой с псевдогигант
@@ -4310,9 +4140,6 @@ namespace Квест
                 {
                     menace = 8;
                 }
-
-
-
                 //=============Пистолет Макарова==========
                 if (id.SelGun == 1)
                 {
@@ -4327,8 +4154,6 @@ namespace Квест
                         Shot.Text = "+";
                         Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                         this.Controls.Add(Shot);
-
-
                         if (i == Victory)
                         {
                             Shot.Name = "VictoryButton";
@@ -4340,9 +4165,7 @@ namespace Квест
                             Shot.Click += new EventHandler(NoVictoryShot_Click);
                         }
                     }
-
                 }
-
                 //==================Beretta===================
                 if (id.SelGun == 2)
                 {
@@ -4366,8 +4189,6 @@ namespace Квест
                             Shot.Text = "+";
                             Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                             this.Controls.Add(Shot);
-
-
                             if (i == Victory)
                             {
                                 Shot.Name = "VictoryButton";
@@ -4380,7 +4201,6 @@ namespace Квест
                             }
                         }
                     }
-
                 }
                 //==================Desert Eagle====================
                 if (id.SelGun == 3)
@@ -4405,8 +4225,6 @@ namespace Квест
                             Shot.Text = "+";
                             Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                             this.Controls.Add(Shot);
-
-
                             if (i == Victory)
                             {
                                 Shot.Name = "VictoryButton";
@@ -4419,7 +4237,6 @@ namespace Квест
                             }
                         }
                     }
-
                 }
                 //==============АКС - 74У===============
                 if (id.SelGun == 4)
@@ -4444,23 +4261,18 @@ namespace Квест
                                 Shot.Text = "+";
                                 Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                                 this.Controls.Add(Shot);
-
-
                                 if (i == Victory)
                                 {
-
                                     Shot.Name = "VictoryButton";
                                     Shot.Click += new EventHandler(VictoryShot_Click);
                                 }
                                 else
                                 {
-
                                     Shot.Name = "NoVictoryButton";
                                     Shot.Click += new EventHandler(NoVictoryShot_Click);
                                 }
                             }
                         }
-
                 }
                 //==============АК - 105===============
                 if (id.SelGun == 5)
@@ -4485,23 +4297,18 @@ namespace Квест
                             Shot.Text = "+";
                             Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                             this.Controls.Add(Shot);
-
-
                             if (i == Victory)
                             {
-
                                 Shot.Name = "VictoryButton";
                                 Shot.Click += new EventHandler(VictoryShot_Click);
                             }
                             else
                             {
-
                                 Shot.Name = "NoVictoryButton";
                                 Shot.Click += new EventHandler(NoVictoryShot_Click);
                             }
                         }
                     }
-
                 }
                 //==============АH 94===============
                 if (id.SelGun == 6)
@@ -4526,22 +4333,18 @@ namespace Квест
                             Shot.Text = "+";
                             Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                             this.Controls.Add(Shot);
-
                             if (i == Victory)
                             {
-
                                 Shot.Name = "VictoryButton";
                                 Shot.Click += new EventHandler(VictoryShot_Click);
                             }
                             else
                             {
-
                                 Shot.Name = "NoVictoryButton";
                                 Shot.Click += new EventHandler(NoVictoryShot_Click);
                             }
                         }
                     }
-
                 }
                 //==============ТО3 34===============
                 if (id.SelGun == 7)
@@ -4566,22 +4369,18 @@ namespace Квест
                             Shot.Text = "+";
                             Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                             this.Controls.Add(Shot);
-
                             if (i == Victory)
                             {
-
                                 Shot.Name = "VictoryButton";
                                 Shot.Click += new EventHandler(VictoryShot_Click);
                             }
                             else
                             {
-
                                 Shot.Name = "NoVictoryButton";
                                 Shot.Click += new EventHandler(NoVictoryShot_Click);
                             }
                         }
                     }
-
                 }
                 //==============Ружье===============
                 if (id.SelGun == 8)
@@ -4606,22 +4405,18 @@ namespace Квест
                             Shot.Text = "+";
                             Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                             this.Controls.Add(Shot);
-
                             if (i == Victory)
                             {
-
                                 Shot.Name = "VictoryButton";
                                 Shot.Click += new EventHandler(VictoryShot_Click);
                             }
                             else
                             {
-
                                 Shot.Name = "NoVictoryButton";
                                 Shot.Click += new EventHandler(NoVictoryShot_Click);
                             }
                         }
                     }
-
                 }
                 //==============Сайга===============
                 if (id.SelGun == 9)
@@ -4646,22 +4441,18 @@ namespace Квест
                             Shot.Text = "+";
                             Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                             this.Controls.Add(Shot);
-
                             if (i == Victory)
                             {
-
                                 Shot.Name = "VictoryButton";
                                 Shot.Click += new EventHandler(VictoryShot_Click);
                             }
                             else
                             {
-
                                 Shot.Name = "NoVictoryButton";
                                 Shot.Click += new EventHandler(NoVictoryShot_Click);
                             }
                         }
                     }
-
                 }
                 //==============СВД===============
                 if (id.SelGun == 10)
@@ -4683,21 +4474,17 @@ namespace Квест
                         Shot.Text = "+";
                         Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                         this.Controls.Add(Shot);
-
                         if (i == Victory)
                         {
-
                             Shot.Name = "VictoryButton";
                             Shot.Click += new EventHandler(VictoryShot_Click);
                         }
                         else
                         {
-
                             Shot.Name = "NoVictoryButton";
                             Shot.Click += new EventHandler(NoVictoryShot_Click);
                         }
                     }
-
                 }
                 //==============Винторез===============
                 if (id.SelGun == 11)
@@ -4709,7 +4496,6 @@ namespace Квест
                     }
                     Random rand = new Random();
                     int Victory = rand.Next(0, hit);// Для функции в 2 раза больше
-
                     for (int i = 0; i < hit; i++)
                     {
                         Button Shot = new Button();
@@ -4719,7 +4505,6 @@ namespace Квест
                         Shot.Text = "+";
                         Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                         this.Controls.Add(Shot);
-
                         if (i == Victory)
                         {
                             Shot.Name = "VictoryButton";
@@ -4727,17 +4512,14 @@ namespace Квест
                         }
                         else
                         {
-
                             Shot.Name = "NoVictoryButton";
                             Shot.Click += new EventHandler(NoVictoryShot_Click);
                         }
                     }
-
                 }
                 //=============Гаус Пушка==========
                 if (id.SelGun == 12)
                 {
-
                     Random rand = new Random();
                     int Victory = rand.Next(0, menace);
                     for (int i = 0; i < menace; i++)
@@ -4749,7 +4531,6 @@ namespace Квест
                         Shot.Text = "+";
                         Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
                         this.Controls.Add(Shot);
-
                         if (i == Victory)
                         {
                             Shot.Name = "VictoryButton";
@@ -4761,18 +4542,9 @@ namespace Квест
                             Shot.Click += new EventHandler(NoVictoryShot_Click);
                         }
                     }
-
                 }
             }
-
-
-        }
-                
-            
-
-
-
-        
+        }               
             private void VictoryShot_Click(object sender, EventArgs e)
             {  
                 int maxdamage = 0;
@@ -4816,10 +4588,6 @@ namespace Квест
                 {
                     maxdamage = 80;
                 }
-
-
-
-
                 if (id.SelGun == 12) //Для Гаус Пушки
                 {
                     Random rand = new Random();
@@ -4834,8 +4602,7 @@ namespace Квест
                     form2.ShowDialog();
                     this.Close();
                 }
-                else
- 
+                else 
                 {
                     FormVictoryDogs form2 = new FormVictoryDogs();
                     this.Hide();
@@ -4886,8 +4653,6 @@ namespace Квест
                 {
                     maxdamage = 80;
                 }
-
-
                 if (id.SelGun == 1 || id.SelGun == 2 || id.SelGun == 3 || id.SelGun == 8 || id.SelGun == 10)//Пм,Беретта, Desert Eagle, ружье, СВД
                 {
                     Random rand = new Random();
@@ -4924,7 +4689,6 @@ namespace Квест
                         this.Hide();
                         form2.ShowDialog();
                         this.Close();
-
                     }
                 }
                 if (id.SelGun == 11) //Винторез
@@ -4948,7 +4712,6 @@ namespace Квест
                         this.Hide();
                         form2.ShowDialog();
                         this.Close();
-
                     }
                 }
                 if (id.SelGun == 6) //AH 94
@@ -4972,7 +4735,6 @@ namespace Квест
                         this.Hide();
                         form2.ShowDialog();
                         this.Close();
-
                     }
                 }
                 if (id.SelGun == 12)
@@ -4981,11 +4743,8 @@ namespace Квест
                     this.Hide();
                     form2.ShowDialog();
                     this.Close();
-                }
-                
-            } 
-        
-
+                }               
+            }       
             private void PDAButton_Click(object sender, EventArgs e)
             {
                 PDA form3 = new PDA();

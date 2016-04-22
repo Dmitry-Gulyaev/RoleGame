@@ -1,13 +1,13 @@
-﻿using System;
+﻿namespace Квест
+{
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-namespace Квест
-{
-    public class Globals
+    public class Globals //
     {
         public static int Level=1;
         public static int Heal=5;
