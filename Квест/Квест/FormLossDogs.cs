@@ -49,7 +49,7 @@ namespace Квест
             {
                 Globals.Ammo -= 1;
                 label1.BackColor = Color.Transparent;
-                label1.ForeColor = Color.Red;
+                label1.ForeColor = Color.Yellow;
                 label1.BackColor = Color.Transparent;
                 label1.Text = "Вы тяжело ранены.\n За Ваше лечение у Вас будет взята некоторая сумма денег."; // здесь нужна проверка на нахождение персонажа относительно локации
                 
