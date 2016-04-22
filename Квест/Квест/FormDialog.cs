@@ -14,6 +14,11 @@ namespace Квест
         public FormDialog()
         {
             InitializeComponent();
+            if (Globals.Points > 100)
+            {
+                Globals.Level += 1;
+                Globals.Points = 0;
+            }
             LabelHeal.Text = Globals.Heal.ToString();
             LabelLevel.Text = Globals.Level.ToString();
             LabelMoney.Text = Globals.Money.ToString();
@@ -52,8 +57,13 @@ namespace Квест
 
             this.BackgroundImage = Image.FromFile("Шрам.jpg", false);
             //this.Size = new Size(500, 432);
+
          
             
+
+            
+           
+
             dialog.BackColor = Color.Transparent;
             dialog.ForeColor = Color.White;
             dialog.Text = "Ему удалось нанять двоих профессиональных сталкеров для помощи с освоением Андрея в Зоне, \nа также для помощи поиска остальных ингредиентов Оазисонола. \nШрам и Клин дали Андрею прозвище Лис и теперь их путешествие по Большой земле подошло к концу. \nПосле непродолжительного похода от Центра Изучения ЧЗО впереди показалась колючая проволока \nи бетонные заборы - периметр Зоны. \nВам предстояло пройти через блокпост, который тщательно охранялся военными. \nШрам: - Так, нам нужно либо сразу разделиться и в рассыпную, ибо идти толпой - опасно, \nлибо подойти поближе и разведать обстановку. Если на дежурстве сегодня капитан Абрамов, \nто можем немного заплатить ему и пройти спокойно. \nЕсли Устименко, то разговаривать с ним и смысла нет. ";
@@ -113,6 +123,7 @@ namespace Квест
 
     }
             private void Answer2_Click(object sender, EventArgs e)
+
              {
 
              }
@@ -131,7 +142,8 @@ namespace Квест
             }
 
 
-    }
+
+        }
 
     
 }

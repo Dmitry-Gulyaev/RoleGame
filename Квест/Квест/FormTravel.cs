@@ -14,6 +14,11 @@ namespace Квест
         public FormTravel()
         {
             InitializeComponent();
+            if (Globals.Points > 100)
+            {
+                Globals.Level += 1;
+                Globals.Points = 0;
+            }
             LabelHeal.Text = Globals.Heal.ToString();
             LabelLevel.Text = Globals.Level.ToString();
             LabelMoney.Text = Globals.Money.ToString();
@@ -125,7 +130,7 @@ namespace Квест
             {
                 MessageBox.Show("Ты уже в Деревне новичков.");
             }
-
+             
             if (id.Location == 1)
             {
                 Random rand = new Random();
@@ -133,7 +138,7 @@ namespace Квест
                 if (attack == 3)
                 {
                     Random rand1 = new Random();
-                    id.Monster = rand1.Next(1, 5);
+                    id.Monster = rand1.Next(1, 10);
                     FormSelectGun form2 = new FormSelectGun();
                     this.Hide();
                     form2.ShowDialog();
@@ -149,7 +154,7 @@ namespace Квест
                     this.Close();
                 }
             }
-            if (id.Location !=0 && id.Location !=1)
+            else if (id.Location !=0 && id.Location !=1)
             {
                 MessageBox.Show("Ты слишком далеко от Деревни новичков, а телепорт пока не придумали. \nВ Деревню Новичков можно попасть из локации «Ферма»");
             }
@@ -160,7 +165,7 @@ namespace Квест
             {
                 MessageBox.Show("Ты уже на Ферме");
             }
-            if (id.Location != 0 && id.Location != 2)
+            else if (id.Location != 0 && id.Location != 2)
             {
                 MessageBox.Show("Ты слишком далеко от Фермы, а телепорт пока не придумали. \nВ На Ферму можно попасть из локаций «Деревня Новичков» и «АТП»");
             }
@@ -173,7 +178,7 @@ namespace Квест
                 if (attack == 3)
                 {
                     Random rand1 = new Random();
-                    id.Monster = rand1.Next(1, 5);
+                    id.Monster = rand1.Next(1, 10);
                     id.Location = 1;
                     FormSelectGun form2 = new FormSelectGun();
                     this.Hide();
@@ -199,7 +204,7 @@ namespace Квест
             {
                 MessageBox.Show("Ты уже на АТП");
             }
-            if (id.Location != 1 && id.Location != 3)
+            else if (id.Location != 1 && id.Location != 3)
             {
                 MessageBox.Show("Ты слишком далеко от АТП, а телепорт пока не придумали. \nВ На АТП можно попасть из локаций «Ферма» и «НИИ Агропром»");
             }
@@ -212,7 +217,7 @@ namespace Квест
                 if (attack == 3)
                 {
                     Random rand1 = new Random();
-                    id.Monster = rand1.Next(1, 5);
+                    id.Monster = rand1.Next(1, 10);
                     id.Location = 2;
                     FormSelectGun form2 = new FormSelectGun();
                     this.Hide();
@@ -237,7 +242,7 @@ namespace Квест
             {
                 MessageBox.Show("Ты уже на НИИ Агропром");
             }
-            if (id.Location != 2 && id.Location != 4)
+            else if (id.Location != 2 && id.Location != 4)
             {
                 MessageBox.Show("Ты слишком далеко от НИИ Агропром, а телепорт пока не придумали. \nВ На НИИ Агропром можно попасть из локаций «АТП» и «Темная Долина»");
             }
@@ -249,7 +254,7 @@ namespace Квест
                 if (attack == 3)
                 {
                     Random rand1 = new Random();
-                    id.Monster = rand1.Next(1, 5);
+                    id.Monster = rand1.Next(1, 10);
                     id.Location = 3;
                     FormSelectGun form2 = new FormSelectGun();
                     this.Hide();
@@ -273,7 +278,7 @@ namespace Квест
             {
                 MessageBox.Show("Ты уже на НИИ Агропром");
             }
-            if (id.Location != 3)
+            else if (id.Location != 3)
             {
                 MessageBox.Show("Ты слишком далеко от Темной Долины, а телепорт пока не придумали. \nВ  Вемную Долину можно попасть из локации «НИИ Агропром»");
             }
@@ -285,7 +290,7 @@ namespace Квест
                 if (attack == 3)
                 {
                     Random rand1 = new Random();
-                    id.Monster = rand1.Next(1, 5);
+                    id.Monster = rand1.Next(1, 10);
                     id.Location = 4;
                     FormSelectGun form2 = new FormSelectGun();
                     this.Hide();
