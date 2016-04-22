@@ -51,9 +51,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(39, 48);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(12, 46);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 13);
+            this.label1.Size = new System.Drawing.Size(0, 17);
             this.label1.TabIndex = 0;
             // 
             // SaveButton
@@ -172,7 +173,7 @@
             this.LabelMoney.Font = new System.Drawing.Font("Tempus Sans ITC", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LabelMoney.ForeColor = System.Drawing.Color.Goldenrod;
             this.LabelMoney.Name = "LabelMoney";
-            this.LabelMoney.Size = new System.Drawing.Size(67, 16);
+            this.LabelMoney.Size = new System.Drawing.Size(67, 22);
             this.LabelMoney.Text = "1000 руб";
             // 
             // FormLossDogs
@@ -181,7 +182,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(490, 262);
+            this.ClientSize = new System.Drawing.Size(490, 281);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

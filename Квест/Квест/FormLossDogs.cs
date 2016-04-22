@@ -31,12 +31,12 @@ namespace Квест
 
             if (Globals.Heal > 0)
             {
-                Globals.Ammo -= 1;
+                Globals.Ammo -= 1;         
                 label1.BackColor = Color.Transparent;
-                label1.ForeColor = Color.White;
+                label1.ForeColor = Color.Yellow;
                 label1.Text = "Собака вгрызлась Вам в плоть, но \nВам удалось вырваться из ее когтей.\n-1 парон ";
                 Button con = new Button();
-                con.Location = new Point(200, 200);
+                con.Location = new Point(200, 210);
                 con.Size = new Size(100, 50);
                 con.Text = "Попробовать еще раз";
                 con.UseVisualStyleBackColor = true;
@@ -49,7 +49,7 @@ namespace Квест
             {
                 Globals.Ammo -= 1;
                 label1.BackColor = Color.Transparent;
-                label1.ForeColor = Color.White;
+                label1.ForeColor = Color.Red;
                 label1.BackColor = Color.Transparent;
                 label1.Text = "Вы тяжело ранены.\n За Ваше лечение у Вас будет взята некоторая сумма денег."; // здесь нужна проверка на нахождение персонажа относительно локации
                 
@@ -58,7 +58,7 @@ namespace Квест
                 Globals.Money -= MinusMoney;
                 
                 Button con1 = new Button();
-                con1.Location = new Point(200, 200);
+                con1.Location = new Point(200, 230);
                 con1.Size = new Size(100, 50);
                 con1.Text = "Очнуться на базе";
                 con1.UseVisualStyleBackColor = true;

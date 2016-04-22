@@ -318,5 +318,10 @@ namespace Квест
             LabelLevel.Text = Globals.Level.ToString();
             LabelMoney.Text = Globals.Money.ToString();
         }
+
+        private void label_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
