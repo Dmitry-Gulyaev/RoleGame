@@ -31,7 +31,7 @@ namespace Квест
             if (id.Maps == 1)
             {
                 Button Location0 = new Button();
-                Location0.Location = new Point(150, 50);
+                Location0.Location = new Point(100, 50);
                 Location0.Size = new Size(150, 25);
                 Location0.Text = "Деревня Новичков";
                 Location0.Click += new EventHandler(Location0_Click);
@@ -39,8 +39,8 @@ namespace Квест
                 if (id.Location == 0)
                 {
                     Label text = new Label();
-                    text.Location = new Point(70, 55);
-                    text.Size = new Size(90, 20);
+                    text.Location = new Point(5, 55);
+                    text.Size = new Size(110, 20);
                     text.Font = new Font("Buxton Sketch", 10F, System.Drawing.FontStyle.Bold);
                     text.ForeColor = Color.Red;
                     text.Text = "Ты здесь ➤";
@@ -49,7 +49,7 @@ namespace Квест
                 }
 
                 Button Location1 = new Button();
-                Location1.Location = new Point(150, 75);
+                Location1.Location = new Point(100, 75);
                 Location1.Size = new Size(150, 25);
                 Location1.Text = "Ферма";
                 Location1.Click += new EventHandler(Location1_Click);
@@ -57,8 +57,8 @@ namespace Квест
                 if (id.Location == 1)
                 {
                     Label text = new Label();
-                    text.Location = new Point(70, 80);
-                    text.Size = new Size(90, 20);
+                    text.Location = new Point(20, 80);
+                    text.Size = new Size(110, 20);
                     text.Font = new Font("Buxton Sketch", 10F, System.Drawing.FontStyle.Bold);
                     text.ForeColor = Color.Red;
                     text.Text = "Ты здесь ➤";
@@ -68,7 +68,7 @@ namespace Квест
 
 
                 Button Location2 = new Button();
-                Location2.Location = new Point(150, 100);
+                Location2.Location = new Point(100, 100);
                 Location2.Size = new Size(150, 25);
                 Location2.Text = "АТП";
                 Location2.Click += new EventHandler(Location2_Click);
@@ -77,7 +77,7 @@ namespace Квест
                 {
                     Label text = new Label();
                     text.Location = new Point(70, 105);
-                    text.Size = new Size(90, 20);
+                    text.Size = new Size(110, 20);
                     text.Font = new Font("Buxton Sketch", 10F, System.Drawing.FontStyle.Bold);
                     text.ForeColor = Color.Red;
                     text.Text = "Ты здесь ➤";
@@ -86,7 +86,7 @@ namespace Квест
                 }
 
                 Button Location3 = new Button();
-                Location3.Location = new Point(150, 125);
+                Location3.Location = new Point(100, 125);
                 Location3.Size = new Size(150, 25);
                 Location3.Text = "НИИ Агропром";
                 Location3.Click += new EventHandler(Location3_Click);
@@ -94,8 +94,8 @@ namespace Квест
                 if (id.Location == 3)
                 {
                     Label text = new Label();
-                    text.Location = new Point(70, 130);
-                    text.Size = new Size(90, 20);
+                    text.Location = new Point(110, 130);
+                    text.Size = new Size(110, 20);
                     text.Font = new Font("Buxton Sketch", 10F, System.Drawing.FontStyle.Bold);
                     text.ForeColor = Color.Red;
                     text.Text = "Ты здесь ➤";
@@ -104,7 +104,7 @@ namespace Квест
                 }
 
                 Button Location4 = new Button();
-                Location4.Location = new Point(150, 150);
+                Location4.Location = new Point(100, 150);
                 Location4.Size = new Size(150, 25);
                 Location4.Text = "Темная Долина";
                 Location4.Click += new EventHandler(Location4_Click);
