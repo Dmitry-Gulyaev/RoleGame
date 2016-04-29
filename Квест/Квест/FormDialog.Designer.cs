@@ -44,6 +44,9 @@
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripLabel3 = new System.Windows.Forms.ToolStripLabel();
             this.LabelMoney = new System.Windows.Forms.ToolStripLabel();
+            this.dialog = new System.Windows.Forms.Label();
+            this.Answer1 = new System.Windows.Forms.Button();
+            this.Answer2 = new System.Windows.Forms.Button();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -168,11 +171,41 @@
             this.LabelMoney.Size = new System.Drawing.Size(67, 22);
             this.LabelMoney.Text = "1000 руб";
             // 
+            // dialog
+            // 
+            this.dialog.AutoSize = true;
+            this.dialog.Location = new System.Drawing.Point(25, 200);
+            this.dialog.Name = "dialog";
+            this.dialog.Size = new System.Drawing.Size(35, 13);
+            this.dialog.TabIndex = 2;
+            this.dialog.Text = "label1";
+            // 
+            // Answer1
+            // 
+            this.Answer1.Location = new System.Drawing.Point(248, 346);
+            this.Answer1.Name = "Answer1";
+            this.Answer1.Size = new System.Drawing.Size(75, 23);
+            this.Answer1.TabIndex = 3;
+            this.Answer1.Text = "button1";
+            this.Answer1.UseVisualStyleBackColor = true;
+            // 
+            // Answer2
+            // 
+            this.Answer2.Location = new System.Drawing.Point(248, 375);
+            this.Answer2.Name = "Answer2";
+            this.Answer2.Size = new System.Drawing.Size(75, 28);
+            this.Answer2.TabIndex = 4;
+            this.Answer2.Text = "button2";
+            this.Answer2.UseVisualStyleBackColor = true;
+            // 
             // FormDialog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(559, 458);
+            this.Controls.Add(this.Answer2);
+            this.Controls.Add(this.Answer1);
+            this.Controls.Add(this.dialog);
             this.Controls.Add(this.toolStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormDialog";
@@ -201,5 +234,8 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripLabel toolStripLabel3;
         private System.Windows.Forms.ToolStripLabel LabelMoney;
+        private System.Windows.Forms.Label dialog;
+        private System.Windows.Forms.Button Answer1;
+        private System.Windows.Forms.Button Answer2;
     }
 }

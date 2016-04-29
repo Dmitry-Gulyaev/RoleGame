@@ -55,6 +55,7 @@ namespace Квест
             Contr.Farm = rand.Next(0, 3);
             Random rand1 = new Random();
             Contr.KPP = rand.Next(1, 3);
+
         
         }
     }
