@@ -42,6 +42,7 @@ namespace Квест
                     text.Location = new Point(5, 55);
                     text.Size = new Size(110, 20);
                     text.Font = new Font("Buxton Sketch", 10F, System.Drawing.FontStyle.Bold);
+                    text.BackColor = Color.Transparent;
                     text.ForeColor = Color.Red;
                     text.Text = "Ты здесь ➤";
                     Controls.Add(text);
@@ -57,9 +58,10 @@ namespace Квест
                 if (id.Location == 1)
                 {
                     Label text = new Label();
-                    text.Location = new Point(20, 80);
+                    text.Location = new Point(5, 80);
                     text.Size = new Size(110, 20);
                     text.Font = new Font("Buxton Sketch", 10F, System.Drawing.FontStyle.Bold);
+                    text.BackColor = Color.Transparent;
                     text.ForeColor = Color.Red;
                     text.Text = "Ты здесь ➤";
                     Controls.Add(text);
@@ -76,9 +78,10 @@ namespace Квест
                 if (id.Location == 2)
                 {
                     Label text = new Label();
-                    text.Location = new Point(70, 105);
+                    text.Location = new Point(5, 105);
                     text.Size = new Size(110, 20);
                     text.Font = new Font("Buxton Sketch", 10F, System.Drawing.FontStyle.Bold);
+                    text.BackColor = Color.Transparent;
                     text.ForeColor = Color.Red;
                     text.Text = "Ты здесь ➤";
                     Controls.Add(text);
@@ -94,9 +97,10 @@ namespace Квест
                 if (id.Location == 3)
                 {
                     Label text = new Label();
-                    text.Location = new Point(110, 130);
+                    text.Location = new Point(5, 130);
                     text.Size = new Size(110, 20);
                     text.Font = new Font("Buxton Sketch", 10F, System.Drawing.FontStyle.Bold);
+                    text.BackColor = Color.Transparent;
                     text.ForeColor = Color.Red;
                     text.Text = "Ты здесь ➤";
                     Controls.Add(text);
@@ -112,9 +116,10 @@ namespace Квест
                 if (id.Location == 4)
                 {
                     Label text = new Label();
-                    text.Location = new Point(70, 155);
-                    text.Size = new Size(90, 20);
+                    text.Location = new Point(5, 155);
+                    text.Size = new Size(110, 20);
                     text.Font = new Font("Buxton Sketch", 10F, System.Drawing.FontStyle.Bold);
+                    text.BackColor = Color.Transparent;
                     text.ForeColor = Color.Red;
                     text.Text = "Ты здесь ➤";
                     Controls.Add(text);
