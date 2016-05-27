@@ -76,7 +76,7 @@
             // SaveButton
             // 
             this.SaveButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.SaveButton.Image = ((System.Drawing.Image)(resources.GetObject("SaveButton.Image")));
+            this.SaveButton.Image = (System.Drawing.Image)resources.GetObject("SaveButton.Image");
             this.SaveButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.SaveButton.Name = "SaveButton";
             this.SaveButton.Size = new System.Drawing.Size(23, 22);
@@ -91,7 +91,7 @@
             // PDAButton
             // 
             this.PDAButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.PDAButton.Image = ((System.Drawing.Image)(resources.GetObject("PDAButton.Image")));
+            this.PDAButton.Image = (System.Drawing.Image)resources.GetObject("PDAButton.Image");
             this.PDAButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.PDAButton.Name = "PDAButton";
             this.PDAButton.Size = new System.Drawing.Size(36, 22);
@@ -106,7 +106,7 @@
             // InventoryButton
             // 
             this.InventoryButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.InventoryButton.Image = ((System.Drawing.Image)(resources.GetObject("InventoryButton.Image")));
+            this.InventoryButton.Image = (System.Drawing.Image)resources.GetObject("InventoryButton.Image");
             this.InventoryButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.InventoryButton.Name = "InventoryButton";
             this.InventoryButton.Size = new System.Drawing.Size(70, 22);
@@ -126,7 +126,7 @@
             // 
             // LabelLevel
             // 
-            this.LabelLevel.Font = new System.Drawing.Font("Tempus Sans ITC", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelLevel.Font = new System.Drawing.Font("Tempus Sans ITC", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)0);
             this.LabelLevel.ForeColor = System.Drawing.Color.Lime;
             this.LabelLevel.ImageTransparentColor = System.Drawing.Color.White;
             this.LabelLevel.Name = "LabelLevel";
@@ -146,7 +146,7 @@
             // 
             // LabelHeal
             // 
-            this.LabelHeal.Font = new System.Drawing.Font("Tempus Sans ITC", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelHeal.Font = new System.Drawing.Font("Tempus Sans ITC", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)0);
             this.LabelHeal.ForeColor = System.Drawing.Color.Red;
             this.LabelHeal.Name = "LabelHeal";
             this.LabelHeal.Size = new System.Drawing.Size(54, 22);
@@ -165,7 +165,7 @@
             // 
             // LabelMoney
             // 
-            this.LabelMoney.Font = new System.Drawing.Font("Tempus Sans ITC", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelMoney.Font = new System.Drawing.Font("Tempus Sans ITC", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)0);
             this.LabelMoney.ForeColor = System.Drawing.Color.Goldenrod;
             this.LabelMoney.Name = "LabelMoney";
             this.LabelMoney.Size = new System.Drawing.Size(67, 22);
@@ -207,7 +207,7 @@
             this.Controls.Add(this.Answer1);
             this.Controls.Add(this.dialog);
             this.Controls.Add(this.toolStrip1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Icon = (System.Drawing.Icon)resources.GetObject("$this.Icon");
             this.Name = "FormDialog";
             this.Load += new System.EventHandler(this.FormDialog_Load);
             this.toolStrip1.ResumeLayout(false);

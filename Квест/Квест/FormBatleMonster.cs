@@ -116,9 +116,8 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
-
 
                         if (i == Victory)
                         {
@@ -155,7 +154,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
 
@@ -194,7 +193,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
 
@@ -274,7 +273,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
 
@@ -315,7 +314,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
                             if (i == Victory)
@@ -355,7 +354,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
                             if (i == Victory)
@@ -395,7 +394,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
                             if (i == Victory)
@@ -435,7 +434,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
                             if (i == Victory)
@@ -472,7 +471,7 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
 
                         if (i == Victory)
@@ -508,7 +507,7 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
 
                         if (i == Victory)
@@ -539,7 +538,7 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
 
                         if (i == Victory)
@@ -587,7 +586,7 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
 
 
@@ -626,7 +625,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
 
@@ -665,7 +664,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
 
@@ -745,7 +744,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
 
@@ -786,7 +785,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
                             if (i == Victory)
@@ -826,7 +825,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
                             if (i == Victory)
@@ -866,7 +865,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
                             if (i == Victory)
@@ -906,9 +905,8 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
-
                             if (i == Victory)
                             {
 
@@ -943,7 +941,7 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
 
                         if (i == Victory)
@@ -979,7 +977,7 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
 
                         if (i == Victory)
@@ -1010,7 +1008,7 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
 
                         if (i == Victory)
@@ -1058,7 +1056,7 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
 
 
@@ -1097,7 +1095,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
 
@@ -1136,7 +1134,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
 
@@ -1216,7 +1214,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
 
@@ -1257,7 +1255,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
                             if (i == Victory)
@@ -1297,7 +1295,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
                             if (i == Victory)
@@ -1337,7 +1335,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
                             if (i == Victory)
@@ -1377,7 +1375,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
                             if (i == Victory)
@@ -1414,7 +1412,7 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
 
                         if (i == Victory)
@@ -1450,7 +1448,7 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
 
                         if (i == Victory)
@@ -1481,7 +1479,7 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
 
                         if (i == Victory)
@@ -1525,7 +1523,7 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
 
 
@@ -1564,7 +1562,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
 
@@ -1603,7 +1601,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
 
@@ -1683,7 +1681,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
 
@@ -1724,7 +1722,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
                             if (i == Victory)
@@ -1764,7 +1762,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
                             if (i == Victory)
@@ -1804,7 +1802,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
                             if (i == Victory)
@@ -1844,7 +1842,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
                             if (i == Victory)
@@ -1881,7 +1879,7 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
 
                         if (i == Victory)
@@ -1917,7 +1915,7 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
 
                         if (i == Victory)
@@ -1948,7 +1946,7 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
 
                         if (i == Victory)
@@ -1992,7 +1990,7 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
 
 
@@ -2031,7 +2029,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
 
@@ -2070,7 +2068,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
 
@@ -2150,7 +2148,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
 
@@ -2191,7 +2189,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
                             if (i == Victory)
@@ -2231,7 +2229,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
                             if (i == Victory)
@@ -2271,7 +2269,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
                             if (i == Victory)
@@ -2311,7 +2309,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
                             if (i == Victory)
@@ -2348,7 +2346,7 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
 
                         if (i == Victory)
@@ -2384,7 +2382,7 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
 
                         if (i == Victory)
@@ -2415,7 +2413,7 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
 
                         if (i == Victory)
@@ -2458,7 +2456,7 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
 
 
@@ -2497,7 +2495,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
 
@@ -2536,7 +2534,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
 
@@ -2616,7 +2614,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
 
@@ -2657,7 +2655,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
                             if (i == Victory)
@@ -2694,7 +2692,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
                             if (i == Victory)
@@ -2731,7 +2729,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
                             if (i == Victory)
@@ -2768,7 +2766,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
                             if (i == Victory)
@@ -2802,7 +2800,7 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
 
                         if (i == Victory)
@@ -2835,7 +2833,7 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
 
                         if (i == Victory)
@@ -2862,7 +2860,7 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
 
                         if (i == Victory)
@@ -2900,7 +2898,7 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
                         if (i == Victory)
                         {
@@ -2935,7 +2933,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
                             if (i == Victory)
                             {
@@ -2971,7 +2969,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
                             if (i == Victory)
                             {
@@ -3043,7 +3041,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
                             if (i == Victory)
                             {
@@ -3079,7 +3077,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
                             if (i == Victory)
                             {
@@ -3115,7 +3113,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
                             if (i == Victory)
                             {
@@ -3151,7 +3149,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
                             if (i == Victory)
                             {
@@ -3187,7 +3185,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
                             if (i == Victory)
                             {
@@ -3219,7 +3217,7 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
                         if (i == Victory)
                         {
@@ -3249,7 +3247,7 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
                         if (i == Victory)
                         {
@@ -3275,7 +3273,7 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
                         if (i == Victory)
                         {
@@ -3312,9 +3310,8 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-                        this.Controls.Add(Shot);
-                        if (i == Victory)
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
+                        this.Controls.Add(Shot);                        if (i == Victory)
                         {
                             Shot.Name = "VictoryButton";
                             Shot.Click += new EventHandler(VictoryShot_Click);
@@ -3347,7 +3344,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
 
@@ -3385,7 +3382,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
 
@@ -3461,7 +3458,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
                             if (i == Victory)
                             {
@@ -3497,7 +3494,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
                             if (i == Victory)
@@ -3534,7 +3531,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
 
                             if (i == Victory)
@@ -3571,7 +3568,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
                             if (i == Victory)
                             {
@@ -3607,7 +3604,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
                             if (i == Victory)
                             {
@@ -3639,7 +3636,7 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
                         if (i == Victory)
                         {
@@ -3670,7 +3667,7 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
                         if (i == Victory)
                         {
@@ -3696,7 +3693,7 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
                         if (i == Victory)
                         {
@@ -3733,7 +3730,7 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
                         if (i == Victory)
                         {
@@ -3768,7 +3765,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
                             if (i == Victory)
                             {
@@ -3804,7 +3801,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
                             if (i == Victory)
                             {
@@ -3876,7 +3873,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
                             if (i == Victory)
                             {
@@ -3912,7 +3909,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
                             if (i == Victory)
                             {
@@ -3948,7 +3945,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
                             if (i == Victory)
                             {
@@ -3984,7 +3981,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
                             if (i == Victory)
                             {
@@ -4020,7 +4017,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
                             if (i == Victory)
                             {
@@ -4052,7 +4049,7 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
                         if (i == Victory)
                         {
@@ -4084,7 +4081,7 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
                         if (i == Victory)
                         {
@@ -4110,7 +4107,7 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
                         if (i == Victory)
                         {
@@ -4147,7 +4144,7 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
                         if (i == Victory)
                         {
@@ -4182,7 +4179,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
                             if (i == Victory)
                             {
@@ -4218,7 +4215,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
                             if (i == Victory)
                             {
@@ -4290,7 +4287,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
                             if (i == Victory)
                             {
@@ -4326,7 +4323,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
                             if (i == Victory)
                             {
@@ -4362,7 +4359,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
                             if (i == Victory)
                             {
@@ -4398,7 +4395,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
                             if (i == Victory)
                             {
@@ -4434,7 +4431,7 @@ namespace Квест
                             Shot.Left = 10 + 100 * i;
                             Shot.Size = new Size(100, 50);
                             Shot.Text = "+";
-                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                            Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                             this.Controls.Add(Shot);
                             if (i == Victory)
                             {
@@ -4467,7 +4464,7 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
                         if (i == Victory)
                         {
@@ -4498,9 +4495,8 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-                        this.Controls.Add(Shot);
-                        if (i == Victory)
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
+                        this.Controls.Add(Shot);                        if (i == Victory)
                         {
                             Shot.Name = "VictoryButton";
                             Shot.Click += new EventHandler(VictoryShot_Click);
@@ -4524,7 +4520,7 @@ namespace Квест
                         Shot.Left = 10 + 100 * i;
                         Shot.Size = new Size(100, 50);
                         Shot.Text = "+";
-                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+                        Shot.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
                         this.Controls.Add(Shot);
                         if (i == Victory)
                         {

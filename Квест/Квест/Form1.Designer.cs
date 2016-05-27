@@ -35,9 +35,9 @@
             // 
             // button1
             // 
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+            this.button1.BackgroundImage = (System.Drawing.Image)resources.GetObject("button1.BackgroundImage");
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)204);
             this.button1.ForeColor = System.Drawing.Color.Ivory;
             this.button1.Location = new System.Drawing.Point(373, 392);
             this.button1.Name = "button1";
@@ -51,7 +51,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)0);
             this.label1.ForeColor = System.Drawing.SystemColors.Window;
             this.label1.Location = new System.Drawing.Point(2, 148);
             this.label1.Name = "label1";
@@ -66,12 +66,12 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImage = (System.Drawing.Image)resources.GetObject("$this.BackgroundImage");
             this.ClientSize = new System.Drawing.Size(601, 447);
             this.ControlBox = false;
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Icon = (System.Drawing.Icon)resources.GetObject("$this.Icon");
             this.Name = "FormIntro";
             this.Text = "Добро пожаловать в игру!";
             this.Load += new System.EventHandler(this.FormIntro_Load);
