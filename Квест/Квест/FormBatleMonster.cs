@@ -71,10 +71,12 @@ namespace Квест
         }
 
         private Button[] S = new Button[10];
+
         public void InitB()
         {
         
         }
+
         private void FormBatleDogs_PM_Load(object sender, EventArgs e)
         {
             id.Click = 0;
@@ -4539,7 +4541,8 @@ namespace Квест
                     }
                 }
             }
-        }               
+        }     
+          
             private void VictoryShot_Click(object sender, EventArgs e)
             {  
                 int maxdamage = 0;
@@ -4605,6 +4608,7 @@ namespace Квест
                     this.Close();
                 }
             }
+
             private void NoVictoryShot_Click(object sender, EventArgs e)
             {
                 int maxdamage = 0;
@@ -4739,7 +4743,8 @@ namespace Квест
                     form2.ShowDialog();
                     this.Close();
                 }               
-            }       
+            }  
+     
             private void PDAButton_Click(object sender, EventArgs e)
             {
                 PDA form3 = new PDA();
