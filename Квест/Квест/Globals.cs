@@ -167,6 +167,7 @@ using System.IO;
             Statistics.SecretFarmCatacombs = System.Int32.Parse(st);
             sr.Close();
         }
+
         public void control()
         {
             if (Globals.Points > 100)
@@ -174,10 +175,12 @@ using System.IO;
                 Globals.Level += 1;
                 Globals.Points = 0;
             }
+
             if (Globals.Heal > 100)
             {
                 Globals.Heal = 100;
             }
+
             if (Globals.Heal < 0)
                 Globals.Heal = 0;
         }
@@ -201,14 +204,15 @@ using System.IO;
         public static int Gaus_Gun;//id 12
 
     }
+
     public static class MedResource
     {
         public static int medicine ; // аптечка
         public static int bandage; // бинт
         public static int analgesic;//обезболивающее
         public static int antidote;//антирадиационное средство
-
     }
+
     public static class Statistics
     {
         public static int KillFlech;
@@ -224,6 +228,7 @@ using System.IO;
         public static int SecretFarmCatacombs = 0; // переменная отвечающая за найденные секретные катакомбы на ферме
         public static int Step;
         }
+
     public static class id
     {
         public static int Monster;
@@ -235,12 +240,13 @@ using System.IO;
 
 
     }
+
     public static class Contr // отвечает за генерацию юнитов, под контролем которых находятся динамические локации.
     {
         public static int Farm; // если 0-пусто, 1- бандиты, 2-сталкеры.
         public static int KPP; // если 1 - то, Абрамов, если 2, то Устименко
-        
     }
+
     public static class IdDialog
     {
         public static string PeopleDialog; // Id человека, с которым ведется диалог
