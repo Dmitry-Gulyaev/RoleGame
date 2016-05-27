@@ -22,46 +22,55 @@ namespace Квест
                 this.BackgroundImage = Image.FromFile("Псевдоплоть.jpg", false);
                 this.Size = new Size(800, 736);
             }
+
             if (id.Monster == 2)
             {
                 this.BackgroundImage = Image.FromFile("Кабан.jpg", false);
                 this.Size = new Size(613, 476);
             }
+
             if (id.Monster == 3)
             {
                 this.BackgroundImage = Image.FromFile("Псевдопес.jpg", false);
                 this.Size = new Size(604,453);
             }
+
             if (id.Monster == 4)
             {
                 this.BackgroundImage = Image.FromFile("Снорк.jpg", false);
                 this.Size = new Size(680,470);
             }
+
             if (id.Monster == 5)
             {
                 this.BackgroundImage = Image.FromFile("Кровосос.jpg", false);
                 this.Size = new Size(604,453);
             }
+
             if (id.Monster == 6)
             {
                 this.BackgroundImage = Image.FromFile("Полтергейст.png", false);
                 this.Size = new Size(720,684);
             }
+
             if (id.Monster == 7)
             {
                 this.BackgroundImage = Image.FromFile("Контролер.jpg", false);
                 this.Size = new Size(1000,750);
             }
+
             if (id.Monster == 8)
             {
                 this.BackgroundImage = Image.FromFile("Бюрер.jpg", false);
                 this.Size = new Size(800,464);
             }
+
             if (id.Monster == 9)
             {
                 this.BackgroundImage = Image.FromFile("Химера.jpg", false);
                 this.Size = new Size(510,446);
             }
+
             if (id.Monster == 10)
             {
                 this.BackgroundImage = Image.FromFile("Псевдогигант.jpg", false);
@@ -75,6 +84,7 @@ namespace Квест
         {
         
         }
+
         private void FormBatleDogs_PM_Load(object sender, EventArgs e)
         {
             id.Click = 0;
@@ -462,6 +472,7 @@ namespace Квест
                     {
                         hit = menace + 1;
                     }
+
                     Random rand = new Random();
                     int Victory = rand.Next(0, hit);// Для функции в 2 раза больше
 
@@ -498,6 +509,7 @@ namespace Квест
                     {
                         hit = menace + 1;
                     }
+
                     Random rand = new Random();
                     int Victory = rand.Next(0, hit);// Для функции в 2 раза больше
 
@@ -933,6 +945,7 @@ namespace Квест
                     {
                         hit = menace + 1;
                     }
+
                     Random rand = new Random();
                     int Victory = rand.Next(0, hit);// Для функции в 2 раза больше
 
@@ -969,6 +982,7 @@ namespace Квест
                     {
                         hit = menace + 1;
                     }
+
                     Random rand = new Random();
                     int Victory = rand.Next(0, hit);// Для функции в 2 раза больше
 
@@ -1396,6 +1410,7 @@ namespace Квест
                     }
 
                 }
+
                 //==============СВД===============
                 if (id.SelGun == 10)
                 {
@@ -1404,6 +1419,7 @@ namespace Квест
                     {
                         hit = menace + 1;
                     }
+
                     Random rand = new Random();
                     int Victory = rand.Next(0, hit);// Для функции в 2 раза больше
 
@@ -1432,6 +1448,7 @@ namespace Квест
                     }
 
                 }
+
                 //==============Винторез===============
                 if (id.SelGun == 11)
                 {
@@ -1440,6 +1457,7 @@ namespace Квест
                     {
                         hit = menace + 1;
                     }
+
                     Random rand = new Random();
                     int Victory = rand.Next(0, hit);// Для функции в 2 раза больше
 
@@ -1860,6 +1878,7 @@ namespace Квест
                     }
 
                 }
+
                 //==============СВД===============
                 if (id.SelGun == 10)
                 {
@@ -1868,6 +1887,7 @@ namespace Квест
                     {
                         hit = menace + 1;
                     }
+
                     Random rand = new Random();
                     int Victory = rand.Next(0, hit);// Для функции в 2 раза больше
 
@@ -1894,8 +1914,8 @@ namespace Квест
                             Shot.Click += new EventHandler(NoVictoryShot_Click);
                         }
                     }
-
                 }
+
                 //==============Винторез===============
                 if (id.SelGun == 11)
                 {
@@ -1904,6 +1924,7 @@ namespace Квест
                     {
                         hit = menace + 1;
                     }
+
                     Random rand = new Random();
                     int Victory = rand.Next(0, hit);// Для функции в 2 раза больше
 
@@ -2325,8 +2346,8 @@ namespace Квест
                             }
                         }
                     }
-
                 }
+
                 //==============СВД===============
                 if (id.SelGun == 10)
                 {
@@ -2335,6 +2356,7 @@ namespace Квест
                     {
                         hit = menace + 1;
                     }
+
                     Random rand = new Random();
                     int Victory = rand.Next(0, hit);// Для функции в 2 раза больше
 
@@ -2361,8 +2383,8 @@ namespace Квест
                             Shot.Click += new EventHandler(NoVictoryShot_Click);
                         }
                     }
-
                 }
+
                 //==============Винторез===============
                 if (id.SelGun == 11)
                 {
@@ -2371,6 +2393,7 @@ namespace Квест
                     {
                         hit = menace + 1;
                     }
+
                     Random rand = new Random();
                     int Victory = rand.Next(0, hit);// Для функции в 2 раза больше
 
@@ -2429,6 +2452,7 @@ namespace Квест
 
                 }
             }
+
             if (id.Monster == 6) //  Бой с полтергестом
             {
                 if (Globals.Level == 1 || Globals.Level == 2)
@@ -2789,6 +2813,7 @@ namespace Квест
                     {
                         hit = menace + 1;
                     }
+
                     Random rand = new Random();
                     int Victory = rand.Next(0, hit);// Для функции в 2 раза больше
 
@@ -2822,6 +2847,7 @@ namespace Квест
                     {
                         hit = menace + 1;
                     }
+
                     Random rand = new Random();
                     int Victory = rand.Next(0, hit);// Для функции в 2 раза больше
 
@@ -2875,6 +2901,7 @@ namespace Квест
                     }
                 }
             }
+
             if (id.Monster == 7) //  Бой  с контролером
             {
                 if (Globals.Level == 1 || Globals.Level == 2)
@@ -3207,6 +3234,7 @@ namespace Квест
                     {
                         hit = menace + 1;
                     }
+
                     Random rand = new Random();
                     int Victory = rand.Next(0, hit);// Для функции в 2 раза больше
                     for (int i = 0; i < hit; i++)
@@ -3287,6 +3315,7 @@ namespace Квест
                     }
                 }
             }
+
             if (id.Monster == 8) //  Бой  с бюрером
             {
                 if (Globals.Level == 1 || Globals.Level == 2)
@@ -3627,6 +3656,7 @@ namespace Квест
                     {
                         hit = menace + 1;
                     }
+
                     Random rand = new Random();
                     int Victory = rand.Next(0, hit);// Для функции в 2 раза больше
                     for (int i = 0; i < hit; i++)
@@ -3658,6 +3688,7 @@ namespace Квест
                     {
                         hit = menace + 1;
                     }
+
                     Random rand = new Random();
                     int Victory = rand.Next(0, hit);// Для функции в 2 раза больше
                     for (int i = 0; i < hit; i++)
@@ -3708,6 +3739,7 @@ namespace Квест
                     }
                 }
             }
+
             if (id.Monster == 9) //  Бой с химерой
             {
                 if (Globals.Level == 1 || Globals.Level == 2)
@@ -4040,6 +4072,7 @@ namespace Квест
                     {
                         hit = menace + 1;
                     }
+
                     Random rand = new Random();
                     int Victory = rand.Next(0, hit);// Для функции в 2 раза больше
                     for (int i = 0; i < hit; i++)
@@ -4063,6 +4096,7 @@ namespace Квест
                         }
                     }
                 }
+
                 //==============Винторез===============
                 if (id.SelGun == 11)
                 {
@@ -4071,6 +4105,7 @@ namespace Квест
                     {
                         hit = menace + 1;
                     }
+
                     Random rand = new Random();
                     int Victory = rand.Next(0, hit);// Для функции в 2 раза больше
 
@@ -4122,6 +4157,7 @@ namespace Квест
                     }
                 }
             }
+
             if (id.Monster == 10) //  Бой с псевдогигант
             {
                 if (Globals.Level == 1 || Globals.Level == 2)
@@ -4446,6 +4482,7 @@ namespace Квест
                         }
                     }
                 }
+
                 //==============СВД===============
                 if (id.SelGun == 10)
                 {
@@ -4454,6 +4491,7 @@ namespace Квест
                     {
                         hit = menace + 1;
                     }
+
                     Random rand = new Random();
                     int Victory = rand.Next(0, hit);// Для функции в 2 раза больше
 
@@ -4478,6 +4516,7 @@ namespace Квест
                         }
                     }
                 }
+
                 //==============Винторез===============
                 if (id.SelGun == 11)
                 {
@@ -4486,6 +4525,7 @@ namespace Квест
                     {
                         hit = menace + 1;
                     }
+
                     Random rand = new Random();
                     int Victory = rand.Next(0, hit);// Для функции в 2 раза больше
                     for (int i = 0; i < hit; i++)
@@ -4536,7 +4576,8 @@ namespace Квест
                     }
                 }
             }
-        }               
+        }
+               
             private void VictoryShot_Click(object sender, EventArgs e)
             {  
                 int maxdamage = 0;
@@ -4544,42 +4585,52 @@ namespace Квест
                 {
                      maxdamage = 15;
                 }
+
                 if (id.Monster == 2)
                 {
                      maxdamage = 20;
                 }
+
                 if (id.Monster == 3)
                 {
                      maxdamage = 25;
                 }
+
                 if (id.Monster == 4)
                 {
                      maxdamage = 35;
                 }
+
                 if (id.Monster == 5)
                 {
                      maxdamage = 45;
                 }
+
                 if (id.Monster == 6)
                 {
                     maxdamage = 50;
                 }
+
                 if (id.Monster == 7)
                 {
                     maxdamage = 55;
                 }
+
                 if (id.Monster == 8)
                 {
                     maxdamage = 60;
                 }
+
                 if (id.Monster == 9)
                 {
                     maxdamage = 70;
                 }
+
                 if (id.Monster == 10)
                 {
                     maxdamage = 80;
                 }
+
                 if (id.SelGun == 12) //Для Гаус Пушки
                 {
                     Random rand = new Random();
@@ -4589,6 +4640,7 @@ namespace Квест
                     {
                         Globals.Heal = 0;
                     }
+
                     FormLossDogs form2 = new FormLossDogs();
                     this.Hide();
                     form2.ShowDialog();
@@ -4602,6 +4654,7 @@ namespace Квест
                     this.Close();
                 }
             }
+
             private void NoVictoryShot_Click(object sender, EventArgs e)
             {
                 int maxdamage = 0;
@@ -4609,42 +4662,52 @@ namespace Квест
                 {
                     maxdamage = 15;
                 }
+
                 if (id.Monster == 2)
                 {
                     maxdamage = 20;
                 }
+
                 if (id.Monster == 3)
                 {
                     maxdamage = 25;
                 }
+
                 if (id.Monster == 4)
                 {
                     maxdamage = 35;
                 }
+
                 if (id.Monster == 5)
                 {
                     maxdamage = 45;
                 }
+
                 if (id.Monster == 6)
                 {
                     maxdamage = 50;
                 }
+
                 if (id.Monster == 7)
                 {
                     maxdamage = 55;
                 }
+
                 if (id.Monster == 8)
                 {
                     maxdamage = 60;
                 }
+
                 if (id.Monster == 9)
                 {
                     maxdamage = 70;
                 }
+
                 if (id.Monster == 10)
                 {
                     maxdamage = 80;
                 }
+
                 if (id.SelGun == 1 || id.SelGun == 2 || id.SelGun == 3 || id.SelGun == 8 || id.SelGun == 10)//Пм,Беретта, Desert Eagle, ружье, СВД
                 {
                     Random rand = new Random();
@@ -4654,6 +4717,7 @@ namespace Квест
                     {
                         Globals.Heal = 0;
                     }
+
                     FormLossDogs form2 = new FormLossDogs();
                     this.Hide();
                     form2.ShowDialog();
@@ -4677,12 +4741,14 @@ namespace Квест
                         {
                             Globals.Heal = 0;
                         }
+
                         FormLossDogs form2 = new FormLossDogs();
                         this.Hide();
                         form2.ShowDialog();
                         this.Close();
                     }
                 }
+
                 if (id.SelGun == 11) //Винторез
                 {
                     id.Click += 1;
@@ -4700,12 +4766,14 @@ namespace Квест
                         {
                             Globals.Heal = 0;
                         }
+
                         FormLossDogs form2 = new FormLossDogs();
                         this.Hide();
                         form2.ShowDialog();
                         this.Close();
                     }
                 }
+
                 if (id.SelGun == 6) //AH 94
                 {
                     id.Click += 1;
@@ -4723,12 +4791,14 @@ namespace Квест
                         {
                             Globals.Heal = 0;
                         }
+
                         FormLossDogs form2 = new FormLossDogs();
                         this.Hide();
                         form2.ShowDialog();
                         this.Close();
                     }
                 }
+
                 if (id.SelGun == 12)
                 {
                     FormVictoryDogs form2 = new FormVictoryDogs();
@@ -4736,7 +4806,8 @@ namespace Квест
                     form2.ShowDialog();
                     this.Close();
                 }               
-            }       
+            }  
+     
             private void PDAButton_Click(object sender, EventArgs e)
             {
                 PDA form3 = new PDA();
