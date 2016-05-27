@@ -1508,10 +1508,7 @@ namespace Квест
                 if (Globals.Level > 5)
                 {
                     menace = 2;
-                   
                 }
-
-
 
                 //=============Пистолет Макарова==========
                 if (id.SelGun == 1)
