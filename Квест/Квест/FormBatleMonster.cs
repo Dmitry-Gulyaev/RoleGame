@@ -92,7 +92,7 @@ namespace Квест
             {
                 if (Globals.Level == 1 || Globals.Level == 2)
                     menace = 2;
-                if (Globals.Level == 3 || Globals.Level == 4 && Globals.Level == 5)
+                if (Globals.Level == 3 || (Globals.Level == 4 && Globals.Level == 5))
                     menace = 1;
                 if (Globals.Level > 5)
                 {
@@ -562,7 +562,7 @@ namespace Квест
             {
                 if (Globals.Level == 1 || Globals.Level == 2)
                     menace = 2;
-                if (Globals.Level == 3 || Globals.Level == 4 && Globals.Level == 5)
+                if (Globals.Level == 3 || (Globals.Level == 4 && Globals.Level == 5))
                     menace = 1;
                 if (Globals.Level > 5)
                 {
@@ -1033,7 +1033,7 @@ namespace Квест
             {
                 if (Globals.Level == 1 || Globals.Level == 2)
                     menace = 3;
-                if (Globals.Level == 3 || Globals.Level == 4 && Globals.Level == 5)
+                if (Globals.Level == 3 || (Globals.Level == 4 && Globals.Level == 5))
                     menace = 1;
                 if (Globals.Level > 5)
                 {
@@ -1503,7 +1503,7 @@ namespace Квест
             {
                 if (Globals.Level == 1 || Globals.Level == 2)
                     menace = 4;
-                if (Globals.Level == 3 || Globals.Level == 4 && Globals.Level == 5)
+                if (Globals.Level == 3 || (Globals.Level == 4 && Globals.Level == 5))
                     menace = 3;
                 if (Globals.Level > 5)
                 {
@@ -1970,7 +1970,7 @@ namespace Квест
             {
                 if (Globals.Level == 1 || Globals.Level == 2)
                     menace = 5;
-                if (Globals.Level == 3 || Globals.Level == 4 && Globals.Level == 5)
+                if (Globals.Level == 3 || (Globals.Level == 4 && Globals.Level == 5))
                     menace = 3;
                 if (Globals.Level > 5)
                 {
@@ -2436,7 +2436,7 @@ namespace Квест
             {
                 if (Globals.Level == 1 || Globals.Level == 2)
                     menace = 5;
-                if (Globals.Level == 3 || Globals.Level == 4 && Globals.Level == 5)
+                if (Globals.Level == 3 || (Globals.Level == 4 && Globals.Level == 5))
                     menace = 3;
                 if (Globals.Level > 5)
                 {
@@ -2882,7 +2882,7 @@ namespace Квест
             {
                 if (Globals.Level == 1 || Globals.Level == 2)
                     menace = 6;
-                if (Globals.Level == 3 || Globals.Level == 4 && Globals.Level == 5)
+                if (Globals.Level == 3 || (Globals.Level == 4 && Globals.Level == 5))
                     menace = 5;
                 if (Globals.Level > 5)
                 {
@@ -3294,7 +3294,7 @@ namespace Квест
             {
                 if (Globals.Level == 1 || Globals.Level == 2)
                     menace = 7;
-                if (Globals.Level == 3 || Globals.Level == 4 && Globals.Level == 5)
+                if (Globals.Level == 3 || (Globals.Level == 4 && Globals.Level == 5))
                     menace = 5;
                 if (Globals.Level > 5)
                 {
@@ -3715,7 +3715,7 @@ namespace Квест
             {
                 if (Globals.Level == 1 || Globals.Level == 2)
                     menace = 9;
-                if (Globals.Level == 3 || Globals.Level == 4 && Globals.Level == 5)
+                if (Globals.Level == 3 || (Globals.Level == 4 && Globals.Level == 5))
                     menace = 7;
                 if (Globals.Level > 5)
                 {
@@ -4129,7 +4129,7 @@ namespace Квест
             {
                 if (Globals.Level == 1 || Globals.Level == 2)
                     menace = 10;
-                if (Globals.Level == 3 || Globals.Level == 4 && Globals.Level == 5)
+                if (Globals.Level == 3 || (Globals.Level == 4 && Globals.Level == 5))
                     menace = 10;
                 if (Globals.Level > 5)
                 {
